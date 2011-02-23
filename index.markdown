@@ -1,5 +1,6 @@
-* [Duets](/duets)
-* [Items](/items)
-* [Authentication](/authentication)
-* [Users](/users)
-* [Invites](/invites)
+---
+layout: default
+title: Home
+---
+
+These are the Duet API docs.
