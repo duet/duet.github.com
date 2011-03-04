@@ -1,81 +1,50 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!doctype html>  
+
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Duet API, V1 &raquo; {{page.title}}</title>
-  <meta charset="utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
-  <meta name="robots" content="index,follow"/>
-  <meta name="mssmarttagspreventparsing" content="true"/>
-  <style type="text/css" media="screen">
-    body {
-      font: 14px/22px "Helvetica Neue";
-      color: #3e3e3e;
-      padding: 0;
-      margin: 0;
-    }
-    h1, h2 {
-      margin-top: 0;
-    }
-    ul {
-      margin: 0 0 20px 20px;
-      padding: 0;
-      margin-top: 0;
-      list-style: none;
-    }
-    ul li ul {
-      margin-top: 10px;
-      margin-bottom: 10px;
-      padding: 0 0 0 10px;
-      border-left: 8px solid #eee;
-    }
-    req {
-      color: red;
-      padding-left: 2px;
-    }
-    hr {
-      background-color: none;
-      border: 1px solid #ccc;
-      border-width: 0 0 1px 0;
-      margin: 20px 0 40px 0;
-    }
-    p {
-      margin: 2px 0;
-    }
-    .desc {
-      margin: 10px 0 30px 0;
-      font-style: italic;
-    }
-    #nav {
-      position: absolute;
-      background: #eee;
-      width: 160px;
-      top: 0;
-      left: 0;
-      margin: 0;
-      padding: 10px;
-    }
-    #content {
-      padding-top: 10px;
-      margin-left: 200px;
-    }
-  </style>
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/syntax.css">
 </head>
+
 <body>
-  <div id="nav">
-    <h1>Duet API</h1>
-    <ul>
-      <li><a href="/authentication">Authentication</a></li>
-      <li><a href="/users">Users</a></li>
-      <li><a href="/duets">Duets</a></li>
-      <li><a href="/items">Items</a></li>
-      <li><a href="/invites">Invites</a></li>
-    </ul>
-    <p><req>*</req> denotes required fields.</p>
-  </div>
-  <div id="content">
-    {{content}}
-  </div>
+  <div id="container">
+    <header>
+      <h1>Duet API</h1>
+      <ul>
+        <li><a href="/authentication.html">Authentication</a></li>
+        <li>
+          <a href="#">Accounts</a>
+          <ul>
+            <li><a href="/post/account"><code>POST account</code></a></li>
+            <li><a href="/get/account"><code>GET account</code></a></li>
+            <li><a href="/post/account/update"><code>POST account/update</code></a></li>
+            <li><a href="/post/account/profile_image"><code>POST account/profile_image</code></a></li>
+            <li><a href="/get/account/profile_image"><code>GET account/profile_image</code></a></li>
+          </ul>
+        </li>
+        <li><a href="/duets.html">Duets</a></li>
+        <li><a href="/items.html">Items</a></li>
+        <li><a href="/invites.html">Invites</a></li>
+      </ul>
+    </header>
+    
+    <div id="main">
+      {{content}}
+    </div>
+    
+    <footer>
+
+    </footer>
+  </div> <!-- end of #container -->
 </body>
 </html>
