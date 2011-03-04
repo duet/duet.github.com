@@ -40,6 +40,8 @@ false
 
 ## Response
 
+An account JSON object including the `authentication_token` for that account.
+
 ### HTTP Code
 
 `200 OK` or `422 Unprocessable Entity`
@@ -53,7 +55,8 @@ false
       "last_name": "Kelly",
       "born_on": "1982-03-11",
       "email": "me@pjkel.ly",
-      "gender": "m"
+      "gender": "m",
+      "authentication_token": "rya3yxlxLwIF2OHVJBcX2F2e7gqDGzHxmT3v7eD3E0Lu35ox8FKwzXRSQdoz"
     }
 }
 {% endhighlight %}

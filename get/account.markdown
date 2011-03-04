@@ -24,6 +24,8 @@ true
 
 ## Response
 
+An account JSON object.
+
 ### HTTP Code
 
 `200 OK`

@@ -31,6 +31,8 @@ true
 
 ## Response
 
+An array of account JSON objects.
+
 ### HTTP Code
 
 `200 OK`
@@ -39,9 +41,20 @@ true
 
 {% highlight javascript linenos %}
 {
-  [
-    "account" : {
-      "photo": "http://cdn.duet.me/path/to/image/jpg"
+  "accounts" : [
+    {
+      "first_name": "PJ",
+      "last_name": "Kelly",
+      "born_on": "1982-03-11",
+      "email": "me@pjkel.ly",
+      "gender": "m"
+    },
+    {
+      "first_name": "Nathan",
+      "last_name": "Heleine",
+      "born_on": "1981-08-13",
+      "email": "nathan@crushlovely.com",
+      "gender": "m"
     }
   ]
 }

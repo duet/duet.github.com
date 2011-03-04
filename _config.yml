@@ -3,5 +3,5 @@ pygments: true
 markdown: rdiscount
 permalink: pretty
 api:
-  base_url: http://api.duet.me
+  base_url: https://api.duet.me
   version: 1

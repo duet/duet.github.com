@@ -4,7 +4,7 @@ title: POST account/update
 ---
 # `{{page.title}}`
 
-Update an account record.
+Update basic account information.  This does not include privacy options or the account password.
 
 ## URL
 
@@ -36,7 +36,7 @@ true
 ### Optional
 
 * `account[gender]` - acceptable values: `m`, `f`
-* `account[born_on]` - format: `YYYY-MM-DD` (no time included)
+* `account[born_on]` - format: `YYYY-MM-DD`
 
 ## Response
 
@@ -53,6 +53,7 @@ true
       "last_name": "Kelly",
       "born_on": "1982-03-11",
       "email": "me@pjkel.ly",
+      "phone": "5625050434",
       "gender": "m"
     }
 }
