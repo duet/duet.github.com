@@ -84,7 +84,7 @@ button {  width: auto; overflow: visible; }
 header {
   position: absolute;
   background: #eee;
-  width: 20em;
+  width: 30em;
   top: 0;
   left: 0;
   margin: 0;
@@ -92,7 +92,7 @@ header {
 }
 #main {
   padding-left: 1em;
-  margin-left: 22em;
+  margin-left: 32em;
 }
 
 h1 {

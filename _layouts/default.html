@@ -21,10 +21,10 @@
     <header>
       <h1>Duet API</h1>
       <ul>
-        <li><a href="/authentication.html">Authentication</a></li>
         <li>
-          <a href="#">Accounts</a>
+          <strong>Accounts</strong>
           <ul>
+            <li><a href="/post/account/sign_in"><code>POST&nbsp;account/sign_in</code></a></li>
             <li><a href="/post/account"><code>POST&nbsp;account</code></a></li>
             <li><a href="/get/account"><code>GET&nbsp;&nbsp;account</code></a></li>
             <li><a href="/post/account/update"><code>POST&nbsp;account/update</code></a></li>
@@ -36,9 +36,34 @@
             <li><a href="/get/account/circle"><code>GET&nbsp;&nbsp;account/circle</code></a></li>
           </ul>
         </li>
-        <li><a href="/duets.html">Duets</a></li>
-        <li><a href="/items.html">Items</a></li>
-        <li><a href="/invites.html">Invites</a></li>
+        <li>
+          <strong>Duets</strong>
+          <ul>
+            <li><a href="/get/duets/public"><code>GET&nbsp;&nbsp;duets/public</code></a></li>
+            <li><a href="/get/duets/public/featured"><code>GET&nbsp;&nbsp;duets/public/featured</code></a></li>
+            <li><a href="/get/duets"><code>GET&nbsp;&nbsp;duets</code></a></li>
+            <li><a href="/get/duets/proposed"><code>GET&nbsp;&nbsp;duets/proposed</code></a></li>
+            <li><a href="/get/duets/completed"><code>GET&nbsp;&nbsp;duets/completed</code></a></li>
+            <li><a href="/get/duets/with/:second_user_id"><code>GET&nbsp;&nbsp;duets/with/:second_user_id</code></a></li>
+            <li><a href="/post/duets"><code>POST&nbsp;duets</code></a></li>
+            <li><a href="/post/duets/:duet_id/update"><code>POST&nbsp;duets/:duet_id/update</code></a></li>
+            <li><a href="/post/duets/:duet_id/complete"><code>POST&nbsp;duets/:duet_id/complete</code></a></li>
+            <li><a href="/post/duets/:duet_id/destroy"><code>POST&nbsp;duets/:duet_id/destroy</code></a></li>
+          </ul>
+        </li>
+        <li>
+          <strong>Items</strong>
+          <ul>
+            <li><a href="/get/duets/:duet_id/items"><code>GET&nbsp;&nbsp;duets/:duet_id/items</code></a></li>
+            <li><a href="/post/duets/:duet_id/items"><code>POST&nbsp;duets/:duet_id/items</code></a></li>
+            <li><a href="/post/duets/:duet_id/items/:item_id/destroy"><code>POST&nbsp;duets/:duet_id/items/:item_id/destroy</code></a></li>
+          </ul>
+        </li>
+        <li>
+          <strong>Invites</strong>
+          <ul>
+          </ul>
+        </li>
       </ul>
     </header>
     

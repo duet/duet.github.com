@@ -20,8 +20,7 @@ JSON
 
 ## Authentication Required
 
-true
-
+`true`
 ## Response
 
 An account JSON object.

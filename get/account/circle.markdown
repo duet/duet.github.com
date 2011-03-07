@@ -20,8 +20,7 @@ JSON
 
 ## Authentication Required
 
-true
-
+`true`
 ## Parameters
 
 ### Optional
