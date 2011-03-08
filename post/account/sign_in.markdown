@@ -21,6 +21,7 @@ JSON
 ## Authentication Required
 
 `false`
+
 ## Parameters
 
 ### Required
