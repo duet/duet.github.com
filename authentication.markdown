@@ -18,3 +18,7 @@ Of these two methods, the `X-Token` header option is preferred just because it's
 ## Fetching the `authentication_token`
 
 The `authentication_token` for an account can be obtained via the [`POST account/sign_in`](/post/account/sign_in) API method.  `email` and `password` parameters are sent to this method and a JSON object containing the matching account's `authentication_token` is returned.
+
+## Response if Authentication Fails
+
+If an API method requires authentication and authentication fails, a `401 Unauthorized` response is returned.
