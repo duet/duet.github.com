@@ -21,15 +21,12 @@ JSON
 ## Authentication Required
 
 `true`
+
 ## Response
 
 An account JSON object.
 
-### HTTP Code
-
-`200 OK`
-
-### JSON
+### `200 OK`
 
 {% highlight javascript linenos %}
 {
