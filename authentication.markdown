@@ -4,18 +4,21 @@ title: Authentication
 ---
 # {{page.title}}
 
-Authentication is required for many of the API methods available.  Whether or not it is required is noted on each API method's page under the **Authentication Required** heading.
+There are two levels of authentication: application-level and account-level.  Application-level authentication is required for all API requests.  Account-level authentication is required for many but not all API methods.  Whether or not account-level authentication is required is noted on each API method's page under the **Account Authentication Required** heading.
 
 ## Methods of Authentication
 
-Authentication is attained by sending the `authentication_token` for a given account along with each request it's required for.  There are two methods of doing this:
+Authentication is attained by sending the authentication tokens via special request headers.
 
-1. Setting the `X-Token` request header with the value of `authentication_token`.
-2. Sending an HTTP parameter called `token` with the value set to `authentication_token`.
+### Application-level Authentication
 
-Of these two methods, the `X-Token` header option is preferred just because it's cleaner and keeps all HTTP parameters sent related to the individual API method and not Authentication.
+Set the `X-Application-Token` request header with the value of application token given to you by the Duet team.  Each application (iphone, ipad, android, etc.) that integrates with the Duet API will have its own application token.
 
-## Fetching the `authentication_token`
+### Account-level Authentication
+
+Set the `X-Account-Token` request header with the value of the `authentication_token` for the account you are authenticating as.
+
+#### Fetching the `authentication_token`
 
 The `authentication_token` for an account can be obtained via the [`POST account/sign_in`](/post/account/sign_in) API method.  `email` and `password` parameters are sent to this method and a JSON object containing the matching account's `authentication_token` is returned.
 

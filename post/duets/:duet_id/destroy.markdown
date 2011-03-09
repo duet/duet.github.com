@@ -18,7 +18,7 @@ JSON
 
 `POST`
 
-## Authentication Required
+## Account Authentication Required
 
 `true`
 

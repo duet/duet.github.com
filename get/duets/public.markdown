@@ -18,7 +18,7 @@ JSON
 
 `GET`
 
-## Authentication Required
+## Account Authentication Required
 
 `false`
 
