@@ -82,13 +82,15 @@ button {  width: auto; overflow: visible; }
 .clearfix { zoom: 1; }
 
 header {
-  position: absolute;
+  position: fixed;
   background: #eee;
-  width: 30em;
+  width: 28em;
+  height: 100%;
   top: 0;
   left: 0;
   margin: 0;
   padding: 0 1em;
+  border-right: 0.25em solid rgba(0,0,0,0.25);
 }
 header ul li a {
   display: block;
@@ -96,7 +98,7 @@ header ul li a {
 }
 #main {
   padding-left: 2em;
-  margin-left: 32em;
+  margin-left: 30em;
 }
 
 h1 {
