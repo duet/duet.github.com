@@ -40,20 +40,20 @@ JSON
 
 ## Response
 
-An account JSON object including the `authentication_token` for that account.
+An account JSON object.  **Note**: If you want to sign the account in immediately after successfully creating it, an immediate call to [`POST account/sign_in`](/post/account/sign_in) should be made so the `authentication_token` can be retrieved.
 
 ### `200 OK`
 
 {% highlight javascript linenos %}
 {
-    "account" : {
-      "first_name": "PJ",
-      "last_name": "Kelly",
-      "born_on": "1982-03-11",
-      "email": "pj@crushlovely.com",
-      "gender": "m",
-      "authentication_token": "rya3yxlxLwIF2OHVJBcX2F2e7gqDGzHxmT3v7eD3E0Lu35ox8FKwzXRSQdoz"
-    }
+  "account" : {
+    "gender": null,
+    "phone": "12121234567",
+    "last_name": "Towne",
+    "email": "account-5@email.com",
+    "first_name": "Blaise",
+    "born_on": null
+  }
 }
 {% endhighlight %}
 
@@ -65,5 +65,6 @@ An account JSON object including the `authentication_token` for that account.
     "password": ["can't be blank"],
     "first_name": ["can't be blank"],
     "last_name": ["can't be blank"],
+    "phone": ["can't be blank"]
 }
 {% endhighlight %}

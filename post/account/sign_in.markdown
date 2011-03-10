@@ -26,7 +26,7 @@ JSON
 
 ### Required
 
-* `account[email]`
+* `account[login]` - can be either `email` or `phone`
 * `account[password]`
 
 ## Response
