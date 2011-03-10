@@ -29,14 +29,5 @@ An account JSON object.
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{
-  "account" : {
-    "gender": null,
-    "phone": "12121234567",
-    "last_name": "Towne",
-    "email": "account-5@email.com",
-    "first_name": "Blaise",
-    "born_on": null
-  }
-}
+{{site.resources.account.basic}}
 {% endhighlight %}
