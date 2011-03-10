@@ -9,20 +9,17 @@ resources:
   account:
     basic: |
       {
-        "account" : {
           "gender": null,
           "phone": "12121234567",
-          "last_name": "Towne",
+          "last_name": "Kuvalis",
+          "image": "http://cdn.duet.me/default/account-image.png",
           "email": "account-5@email.com",
-          "first_name": "Blaise",
-          "born_on": null
-        }
+          "born_on": null,
+          "first_name": "Zackery"
       }
     sign_in: |
       {
-          "account" : {
-            "authentication_token": "rya3yxlxLwIF2OHVJBcX2F2e7gqDGzHxmT3v7eD3E0Lu35ox8FKwzXRSQdoz"
-          }
+          "authentication_token": "rya3yxlxLwIF2OHVJBcX2F2e7gqDGzHxmT3v7eD3E0Lu35ox8FKwzXRSQdoz"
       }
     errors: |
       {
