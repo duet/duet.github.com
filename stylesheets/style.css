@@ -32,7 +32,7 @@ hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 
 input, select { vertical-align:middle; }
 
 
-body { font:13px/1.231 sans-serif; *font-size:small; } 
+body { background: rgba(246,245,243,0.75); font:13px/1.231 sans-serif; *font-size:small; } 
 select, input, textarea, button { font:99% sans-serif; }
 pre, code, kbd, samp { font-family: monospace, sans-serif; }
 
@@ -41,8 +41,8 @@ h1,h2,h3,h4,h5,h6 { font-weight: bold; }
 html { overflow-y: scroll; }
 
 a:hover, a:active { outline: none; }
-a, a:active, a:visited { color: #607890; }
-a:hover { color: #036; }
+a, a:active, a:visited { color: rgba(70,116,137, 0.75); }
+a:hover { color: rgba(70,116,137, 1); }
 
 ul, ol { margin-left: 1.8em; }
 ol { list-style-type: decimal; }
@@ -83,7 +83,7 @@ button {  width: auto; overflow: visible; }
 
 header {
   position: fixed;
-  background: #eee;
+  background: #f2f1eb;
   width: 28em;
   height: 100%;
   top: 0;
@@ -95,6 +95,10 @@ header {
 header ul li a {
   display: block;
   text-decoration: none;
+}
+header h1 { 
+  padding-top: 1em;
+  text-align: center; 
 }
 #main {
   padding-left: 2em;
