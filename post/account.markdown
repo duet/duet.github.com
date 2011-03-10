@@ -45,26 +45,11 @@ An account JSON object.  **Note**: If you want to sign the account in immediatel
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{
-  "account" : {
-    "gender": null,
-    "phone": "12121234567",
-    "last_name": "Towne",
-    "email": "account-5@email.com",
-    "first_name": "Blaise",
-    "born_on": null
-  }
-}
+{{site.resources.account.basic}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
 
 {% highlight javascript linenos %}
-{
-    "email": ["can't be blank"],
-    "password": ["can't be blank"],
-    "first_name": ["can't be blank"],
-    "last_name": ["can't be blank"],
-    "phone": ["can't be blank"]
-}
+{{site.resources.account.errors}}
 {% endhighlight %}

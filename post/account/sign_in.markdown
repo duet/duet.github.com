@@ -40,9 +40,5 @@ An account JSON object containing the `authentication_token` only
 ### JSON
 
 {% highlight javascript linenos %}
-{
-    "account" : {
-      "authentication_token": "rya3yxlxLwIF2OHVJBcX2F2e7gqDGzHxmT3v7eD3E0Lu35ox8FKwzXRSQdoz"
-    }
-}
+{{site.resources.account.sign_in}}
 {% endhighlight %}

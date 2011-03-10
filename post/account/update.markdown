@@ -28,8 +28,6 @@ JSON
 * `account[first_name]`
 * `account[last_name]`
 * `account[email]`
-* `account[password]`
-* `account[password_confirmation]`
 * `account[phone]`
 
 ### Optional
@@ -39,21 +37,16 @@ JSON
 
 ## Response
 
-### HTTP Code
+An account JSON object.  **Note**: You cannot update an account's password, profile image, or privacy settings from this method.  Use the respective methods available to handle those needs.
 
-`200 OK` or `422 Unprocessable Entity`
-
-### JSON
+### `200 OK`
 
 {% highlight javascript linenos %}
-{
-  "account" : {
-    "gender": null,
-    "phone": "12121234567",
-    "last_name": "Towne",
-    "email": "account-5@email.com",
-    "first_name": "Blaise",
-    "born_on": null
-  }
-}
+{{site.resources.account.basic}}
+{% endhighlight %}
+
+### `422 Unprocessable Entity`
+
+{% highlight javascript linenos %}
+{{site.resources.account.errors}}
 {% endhighlight %}

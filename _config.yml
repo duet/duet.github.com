@@ -5,3 +5,31 @@ permalink: pretty
 api:
   base_url: https://api.duet.me
   version: 1
+resources:
+  account:
+    basic: |
+      {
+        "account" : {
+          "gender": null,
+          "phone": "12121234567",
+          "last_name": "Towne",
+          "email": "account-5@email.com",
+          "first_name": "Blaise",
+          "born_on": null
+        }
+      }
+    sign_in: |
+      {
+          "account" : {
+            "authentication_token": "rya3yxlxLwIF2OHVJBcX2F2e7gqDGzHxmT3v7eD3E0Lu35ox8FKwzXRSQdoz"
+          }
+      }
+    errors: |
+      {
+          "email": ["can't be blank"],
+          "password": ["can't be blank"],
+          "first_name": ["can't be blank"],
+          "last_name": ["can't be blank"],
+          "phone": ["can't be blank"]
+      }
+      
