@@ -9,13 +9,19 @@ resources:
   account:
     basic: |
       {
-          "gender": null,
-          "phone": "12121234567",
-          "last_name": "Kuvalis",
-          "image": "http://cdn.duet.me/default/account-image.png",
-          "email": "account-5@email.com",
-          "born_on": null,
-          "first_name": "Zackery"
+          "id": 92,
+          "gender": "m",
+          "phone": "2998841598",
+          "last_name": "Ledner",
+          "image": {
+              "large": "http://cdn.duet.me/default/large_account_image.png",
+              "mini": "http://cdn.duet.me/default/mini_account_image.png",
+              "medium": "http://cdn.duet.me/default/medium_account_image.png",
+              "small": "http://cdn.duet.me/default/small_account_image.png"
+          },
+          "born_on": "1980-10-10",
+          "email": "account-6@email.com",
+          "first_name": "Merritt"
       }
     sign_in: |
       {
