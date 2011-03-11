@@ -30,7 +30,6 @@ JSON
 * `account[last_name]`
 * `account[email]`
 * `account[password]`
-* `account[password_confirmation]`
 * `account[phone]`
 
 ### Optional
