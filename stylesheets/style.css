@@ -86,6 +86,7 @@ header {
   background: #f2f1eb;
   width: 28em;
   height: 100%;
+  overflow: auto;
   top: 0;
   left: 0;
   margin: 0;
@@ -98,7 +99,10 @@ header ul li a {
 }
 header h1 { 
   padding-top: 1em;
-  text-align: center; 
+}
+header h1 img { 
+  width: 90px;
+  height: 37px;
 }
 #main {
   padding-left: 2em;

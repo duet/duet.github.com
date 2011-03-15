@@ -20,7 +20,7 @@
   <div id="container">
     <header>
       <h1>
-        <img src="/images/logo.png" alt="Duet" /><br />
+        <img src="/images/logo.png" alt="Duet" />
         API
       </h1>
       <p><span class="implemented"> *</span> - fully implemented</p>
@@ -38,7 +38,6 @@
             <li><a href="/post/account/update"><code>POST&nbsp;account/update</code><span class="implemented"> *</span></a></li>
             <li><a href="/post/account/image"><code>POST&nbsp;account/image</code><span class="implemented"> *</span></a></li>
             <li><a href="/post/account/update_privacy"><code>POST&nbsp;account/update_privacy</code></a></li>
-            <li><a href="/post/account/reset_password"><code>POST&nbsp;account/reset_password</code></a></li>
             <li><a href="/post/account/change_password"><code>POST&nbsp;account/change_password</code></a></li>
             <li><a href="/get/account/circle"><code>GET&nbsp;&nbsp;account/circle</code></a></li>
           </ul>
@@ -69,6 +68,17 @@
         <li>
           <strong>Invites</strong>
           <ul>
+            <li><a href="/get/invites"><code>GET&nbsp;&nbsp;invites</code></a></li>
+            <li><a href="/post/invites/:invite_id/accept"><code>POST&nbsp;invites/:invite_id/accept</code></a></li>
+            <li><a href="/post/invites/:invite_id/decline"><code>POST&nbsp;invites/:invite_id/decline</code></a></li>
+          </ul>
+        </li>
+        <li>
+          <strong>Dittos</strong>
+          <ul>
+            <li><a href="/get/dittos"><code>GET&nbsp;&nbsp;dittos</code></a></li>
+            <li><a href="/post/dittos"><code>POST&nbsp;dittos</code></a></li>
+            <li><a href="/post/dittos/:ditto_id/destroy"><code>POST&nbsp;dittos/:ditto_id/destroy</code></a></li>
           </ul>
         </li>
       </ul>
