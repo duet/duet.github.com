@@ -1,14 +1,14 @@
 ---
 layout: default
-title: POST duets/:duet_id/complete
+title: GET duets/:id
 ---
 # `{{page.title}}`
 
-Mark a duet completed.
+Get duet matching the specified `:id`.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/complete`
+`{{site.api.base_url}}/{{site.api.version}}/duets/:id`
 
 ## Format
 
@@ -16,7 +16,7 @@ JSON
 
 ## HTTP Method
 
-`POST`
+`GET`
 
 ## Account Authentication Required
 
@@ -30,12 +30,6 @@ A duet object.
 
 {% highlight javascript linenos %}
 {{site.resources.duet.basic}}
-{% endhighlight %}
-
-### `422 Unprocessable Entity`
-
-{% highlight javascript linenos %}
-{{site.resources.duet.errors}}
 {% endhighlight %}
 
 ### `404 Not Found`

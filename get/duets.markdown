@@ -26,21 +26,8 @@ JSON
 
 An array of duet JSON objects.
 
-### HTTP Code
-
-`200 OK`
-
-### JSON
+### `200 OK`
 
 {% highlight javascript linenos %}
-{
-  "duets" : [
-    {
-      "id": 1
-    },
-    {
-      "id": 2
-    }
-  ]
-}
+{{site.resources.duet.collection}}
 {% endhighlight %}

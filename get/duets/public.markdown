@@ -31,23 +31,10 @@ JSON
 
 ## Response
 
-An array of duet JSON objects.
+An array of duet JSON objects with sensitive data omitted.
 
-### HTTP Code
-
-`200 OK`
-
-### JSON
+### `200 OK`
 
 {% highlight javascript linenos %}
-{
-  "duets" : [
-    {
-      "id": 1
-    },
-    {
-      "id": 2
-    }
-  ]
-}
+{{site.resources.duet.public_collection}}
 {% endhighlight %}

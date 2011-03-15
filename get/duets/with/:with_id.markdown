@@ -1,14 +1,14 @@
 ---
 layout: default
-title: GET duets/proposed
+title: GET duets/with/:with_id
 ---
 # `{{page.title}}`
 
-A list of all proposed duets related to the current account.
+A list of the current account's duets that involve `:with_id`.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/proposed`
+`{{site.api.base_url}}/{{site.api.version}}/duets/with/:with_id`
 
 ## Format
 
@@ -21,13 +21,6 @@ JSON
 ## Account Authentication Required
 
 `true`
-
-## Parameters
-
-### Optional
-
-* `num` - default: 10
-* `page` - default: 1
 
 ## Response
 

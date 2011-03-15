@@ -26,29 +26,24 @@ JSON
 
 ### Required
 
-* `duet[title]`
-* `duet[is_shared]` - boolean (default: 0)
-* `duet[is_ditto]` - boolean (default: 0)
-* `duet[privacy]` - 0: private, 1: users included, 2: my circle, 4: public
+* `duet[body]`
+
+### Optional
+
+* `duet[with_id]` - the account id of the person you're inviting
 
 ## Response
 
 A duet object.
 
-### HTTP Code
-
-`200 OK` or `422 Unprocessable Entity`
-
-### JSON
+### `200 OK`
 
 {% highlight javascript linenos %}
-{
-    "duet" : {
-      "id": 34,
-      "title": "Make a pie.",
-      "is_shared": false,
-      "is_ditto": false,
-      "privacy": 2
-    }
-}
+{{site.resources.duet.basic}}
+{% endhighlight %}
+
+### `422 Unprocessable Entity`
+
+{% highlight javascript linenos %}
+{{site.resources.duet.errors}}
 {% endhighlight %}

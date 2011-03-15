@@ -1,14 +1,14 @@
 ---
 layout: default
-title: GET duets/public/featured
+title: GET duets/invitations
 ---
 # `{{page.title}}`
 
-Returns a list of featured duets for use in public areas of the app.
+Returns a list of duets you have been invited to.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/public/featured`
+`{{site.api.base_url}}/{{site.api.version}}/duets/invitations`
 
 ## Format
 
@@ -20,7 +20,7 @@ JSON
 
 ## Account Authentication Required
 
-`false`
+`true`
 
 ## Parameters
 
@@ -31,10 +31,10 @@ JSON
 
 ## Response
 
-An array of duet JSON objects with sensitive data omitted.
+An array of duet JSON objects.
 
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.duet.public_collection}}
+{{site.resources.duet.collection}}
 {% endhighlight %}

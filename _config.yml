@@ -35,4 +35,55 @@ resources:
           "last_name": ["can't be blank"],
           "phone": ["can't be blank"]
       }
-      
+  duet:
+    basic: |
+      {
+          "id": 92,
+          "prefix": "Let's",
+          "body": "bake a cake",
+          "created_by_id": 14,
+          "with_id": 32
+      }
+    collection: |
+      [
+        {
+            "id": 92,
+            "prefix": "Let's",
+            "body": "bake a cake",
+            "created_by_id": 14,
+            "with_id": 32
+        },
+        {
+            "id": 12,
+            "prefix": "Let's",
+            "body": "have a beer",
+            "created_by_id": 14,
+            "with_id": 39
+        },
+        {
+            "id": 17,
+            "prefix": "Let's",
+            "body": "go run a race",
+            "created_by_id": 14,
+            "with_id": 19
+        }
+      ]
+    errors: |
+      {
+          "body": ["can't be blank"],
+      }
+    public_collection: |
+      [
+        {
+            "prefix": "Let's",
+            "body": "bake a cake",
+        },
+        {
+            "prefix": "Let's",
+            "body": "have a beer",
+        },
+        {
+            "prefix": "Let's",
+            "body": "go run a race",
+        }
+      ]

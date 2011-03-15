@@ -1,14 +1,14 @@
 ---
 layout: default
-title: POST duets/:duet_id/complete
+title: POST duets/invitations/:id/accept
 ---
 # `{{page.title}}`
 
-Mark a duet completed.
+Accept a Duet invitation.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/complete`
+`{{site.api.base_url}}/{{site.api.version}}/invitations/:id/accept`
 
 ## Format
 

@@ -26,20 +26,16 @@ JSON
 
 A duet object.
 
-### HTTP Code
-
-`200 OK` or `422 Unprocessable Entity`
-
-### JSON
+### `200 OK`
 
 {% highlight javascript linenos %}
-{
-    "duet" : {
-      "id": 34,
-      "title": "Make a pie.",
-      "is_shared": false,
-      "is_ditto": false,
-      "privacy": 2
-    }
-}
+{{site.resources.duet.basic}}
 {% endhighlight %}
+
+### `422 Unprocessable Entity`
+
+{% highlight javascript linenos %}
+{{site.resources.duet.errors}}
+{% endhighlight %}
+
+### `404 Not Found`
