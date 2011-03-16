@@ -23,9 +23,47 @@ resources:
           "email": "account-6@email.com",
           "first_name": "Merritt"
       }
+    collection: |
+      [
+        {
+            "id": 92,
+            "gender": "m",
+            "phone": "2998841598",
+            "last_name": "Ledner",
+            "image": {
+                "large": "http://cdn.duet.me/default/large_account_image.png",
+                "mini": "http://cdn.duet.me/default/mini_account_image.png",
+                "medium": "http://cdn.duet.me/default/medium_account_image.png",
+                "small": "http://cdn.duet.me/default/small_account_image.png"
+            },
+            "born_on": "1980-10-10",
+            "email": "account-6@email.com",
+            "first_name": "Merritt"
+        }
+        {
+            "id": 27,
+            "gender": "f",
+            "phone": "3216549876",
+            "last_name": "Williams",
+            "image": {
+                "large": "http://cdn.duet.me/default/large_account_image.png",
+                "mini": "http://cdn.duet.me/default/mini_account_image.png",
+                "medium": "http://cdn.duet.me/default/medium_account_image.png",
+                "small": "http://cdn.duet.me/default/small_account_image.png"
+            },
+            "born_on": "1980-10-10",
+            "email": "account-6@email.com",
+            "first_name": "Merritt"
+        }
+      ]
     sign_in: |
       {
           "authentication_token": "rya3yxlxLwIF2OHVJBcX2F2e7gqDGzHxmT3v7eD3E0Lu35ox8FKwzXRSQdoz"
+      }
+    privacy: |
+      {
+        "promenade_sharing": false,
+        "maximum_privacy": false
       }
     errors: |
       {
