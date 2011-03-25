@@ -97,6 +97,9 @@ header ul li a {
   display: block;
   text-decoration: none;
 }
+header ul li.na a {
+  text-decoration: line-through;
+}
 header h1 { 
   padding-top: 1em;
 }

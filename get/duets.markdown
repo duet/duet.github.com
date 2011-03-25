@@ -4,30 +4,6 @@ title: GET duets
 ---
 # `{{page.title}}`
 
-Get duets for the currently authenticated account.
+**Note**: There actually isn't a need for this resource in the current version of the application, and as such will not be implemented until need dictates it.
 
-## URL
-
-`{{site.api.base_url}}/{{site.api.version}}/duets`
-
-## Format
-
-JSON
-
-## HTTP Method
-
-`GET`
-
-## Account Authentication Required
-
-`true`
-
-## Response
-
-An array of duet JSON objects.
-
-### `200 OK`
-
-{% highlight javascript linenos %}
-{{site.resources.duet.collection}}
-{% endhighlight %}
+Get all duets for the currently authenticated account.
