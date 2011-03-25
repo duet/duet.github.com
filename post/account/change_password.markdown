@@ -40,5 +40,9 @@ A JSON object containing privacy settings for the account.
 ### `422 Unprocessable Entity`
 
 {% highlight javascript linenos %}
-{{site.resources.account.errors}}
+{
+    "password": [
+      "doesn't match confirmation"
+    ],
+}
 {% endhighlight %}
