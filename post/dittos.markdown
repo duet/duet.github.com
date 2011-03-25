@@ -1,16 +1,14 @@
 ---
 layout: default
-title: POST duets
+title: POST dittos
 ---
 # `{{page.title}}`
 
-Creates a new duet associated with the current account.
-
-**Note**: Invite functionality is not in place yet.
+Creates a new ditto associated with the current account based on an existing duet id.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets`
+`{{site.api.base_url}}/{{site.api.version}}/dittos`
 
 ## Format
 
@@ -28,20 +26,20 @@ JSON
 
 ### Required
 
-* `duet[body]` - limit 100 characters
+* `ditto[duet_id]`
 
 ## Response
 
-A duet object.
+A ditto object.
 
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.duet.basic}}
+{{site.resources.ditto.basic}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
 
 {% highlight javascript linenos %}
-{{site.resources.duet.errors}}
+{{site.resources.ditto.errors}}
 {% endhighlight %}
