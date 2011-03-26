@@ -6,7 +6,7 @@ title: POST duets
 
 Creates a new duet associated with the current account.
 
-**Note**: Invite functionality is not in place yet.
+**Note**: Invite functionality is not in place yet. It's pending a decision on email vs. sms.
 
 ## URL
 
