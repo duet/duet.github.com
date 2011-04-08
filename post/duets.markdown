@@ -4,9 +4,7 @@ title: POST duets
 ---
 # `{{page.title}}`
 
-Creates a new duet associated with the current account.
-
-**Note**: Invite functionality is not in place yet. It's pending a decision on email vs. sms.
+Creates a new duet with the current account as the proposer.
 
 ## URL
 

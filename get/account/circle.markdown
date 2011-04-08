@@ -39,22 +39,5 @@ An array of account JSON objects.
 ### JSON
 
 {% highlight javascript linenos %}
-{
-  "accounts" : [
-    {
-      "first_name": "PJ",
-      "last_name": "Kelly",
-      "born_on": "1982-03-11",
-      "email": "me@pjkel.ly",
-      "gender": "m"
-    },
-    {
-      "first_name": "Nathan",
-      "last_name": "Heleine",
-      "born_on": "1981-08-13",
-      "email": "nathan@crushlovely.com",
-      "gender": "m"
-    }
-  ]
-}
+{{site.resources.account.collection}}
 {% endhighlight %}

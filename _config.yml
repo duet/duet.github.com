@@ -26,34 +26,49 @@ resources:
     collection: |
       [
         {
-            "id": 92,
-            "gender": "m",
-            "phone": "2998841598",
-            "last_name": "Ledner",
-            "image": {
-                "large": "http://cdn.duet.me/default/large_account_image.png",
-                "mini": "http://cdn.duet.me/default/mini_account_image.png",
-                "medium": "http://cdn.duet.me/default/medium_account_image.png",
-                "small": "http://cdn.duet.me/default/small_account_image.png"
-            },
-            "born_on": "1980-10-10",
-            "email": "account-6@email.com",
-            "first_name": "Merritt"
-        }
+          "image": {
+            "large": "http://cdn.duet.me/default/large_account_image.png",
+            "mini": "http://cdn.duet.me/default/mini_account_image.png",
+            "medium": "http://cdn.duet.me/default/medium_account_image.png",
+            "small": "http://cdn.duet.me/default/small_account_image.png"
+          },
+          "born_on": "1972-03-01",
+          "first_name": "Will",
+          "last_name": "Ferrell",
+          "gender": "m",
+          "phone": "9756457843",
+          "email": "will@ferrell.com",
+          "id": 1
+        },
         {
-            "id": 27,
-            "gender": "f",
-            "phone": "3216549876",
-            "last_name": "Williams",
-            "image": {
-                "large": "http://cdn.duet.me/default/large_account_image.png",
-                "mini": "http://cdn.duet.me/default/mini_account_image.png",
-                "medium": "http://cdn.duet.me/default/medium_account_image.png",
-                "small": "http://cdn.duet.me/default/small_account_image.png"
-            },
-            "born_on": "1980-10-10",
-            "email": "account-6@email.com",
-            "first_name": "Merritt"
+          "image": {
+            "large": "http://cdn.duet.me/default/large_account_image.png",
+            "mini": "http://cdn.duet.me/default/mini_account_image.png",
+            "medium": "http://cdn.duet.me/default/medium_account_image.png",
+            "small": "http://cdn.duet.me/default/small_account_image.png"
+          },
+          "born_on": null,
+          "first_name": "Bill",
+          "last_name": "Murray",
+          "gender": null,
+          "phone": "1231231234",
+          "email": "bill@murray.com",
+          "id": 2
+        },
+        {
+          "image": {
+            "large": "http://cdn.duet.me/default/large_account_image.png",
+            "mini": "http://cdn.duet.me/default/mini_account_image.png",
+            "medium": "http://cdn.duet.me/default/medium_account_image.png",
+            "small": "http://cdn.duet.me/default/small_account_image.png"
+          },
+          "born_on": null,
+          "first_name": "Clint",
+          "last_name": "Eastwood",
+          "gender": null,
+          "phone": "3231231234",
+          "email": "clint@eastwood.com",
+          "id": 3
         }
       ]
     sign_in: |
@@ -79,7 +94,7 @@ resources:
           "id": 92,
           "prefix": "Let's",
           "body": "bake a cake",
-          "account_id": 14
+          "state": "unpaired"
       }
     collection: |
       [
@@ -87,62 +102,22 @@ resources:
             "id": 92,
             "prefix": "Let's",
             "body": "bake a cake",
-            "account_id": 14
+            "state": "unpaired"
         },
         {
             "id": 12,
             "prefix": "Let's",
             "body": "have a beer",
-            "account_id": 14
+            "state": "unpaired"
         },
         {
             "id": 17,
             "prefix": "Let's",
             "body": "go run a race",
-            "account_id": 14
+            "state": "unpaired"
         }
       ]
     errors: |
       {
           "body": ["can't be blank"],
-      }
-    public_collection: |
-      [
-        {
-            "prefix": "Let's",
-            "body": "bake a cake",
-        },
-        {
-            "prefix": "Let's",
-            "body": "have a beer",
-        },
-        {
-            "prefix": "Let's",
-            "body": "go run a race",
-        }
-      ]
-  ditto:
-    basic: |
-      {
-          "prefix": "Let's",
-          "body": "bake a cake"
-      }
-    collection: |
-      [
-        {
-            "prefix": "Let's",
-            "body": "bake a cake"
-        },
-        {
-            "prefix": "Let's",
-            "body": "have a beer"
-        },
-        {
-            "prefix": "Let's",
-            "body": "go run a race"
-        }
-      ]
-    errors: |
-      {
-          "duet_id": ["can't be blank"],
       }
