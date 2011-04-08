@@ -22,11 +22,22 @@ JSON
 
 `true`
 
+## Parameters
+
+### Optional
+
+* `per` - default: 10
+* `page` - default: 1
+
 ## Response
 
 An array of duet JSON objects.
 
-### `200 OK`
+### HTTP Code
+
+`200 OK`
+
+### JSON
 
 {% highlight javascript linenos %}
 {{site.resources.duet.collection}}
