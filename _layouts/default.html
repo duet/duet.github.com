@@ -46,20 +46,17 @@
         <li>
           <strong>Duets</strong>
           <ul>
-            <li class="na"><a href="/get/duets"><code>GET&nbsp;&nbsp;duets</code></a></li>
-            <li><a href="/get/duets/public"><code>GET&nbsp;&nbsp;duets/public</code></a></li>
-            <li><a href="/get/duets/public/featured"><code>GET&nbsp;&nbsp;duets/public/featured</code></a></li>
-            <li><a href="/get/duets/:duet_id"><code>GET&nbsp;&nbsp;duets/:duet_id</code></a></li>
-            <li><a href="/get/duets/proposed"><code>GET&nbsp;&nbsp;duets/proposed</code></a></li>
-            <li><a href="/get/duets/completed"><code>GET&nbsp;&nbsp;duets/completed</code></a></li>
-            <li><a href="/get/duets/with/:with_id"><code>GET&nbsp;&nbsp;duets/with/:with_id</code></a></li>
-            <li><a href="/get/duets/invitations"><code>GET&nbsp;&nbsp;duets/invitations</code></a></li>
-            <li><a href="/post/duets/invitations/:duet_id/accept"><code>POST&nbsp;duets/invitations/:duet_id/accept</code></a></li>
-            <li><a href="/post/duets/invitations/:duet_id/decline"><code>POST&nbsp;duets/invitations/:duet_id/decline</code></a></li>
+            <li><a href="/duet_object_lifecycle"><code>Object Lifecycle</code></a></li>
             <li><a href="/post/duets"><code>POST&nbsp;duets</code><span class="implemented"> *</span></a></li>
+            <li><a href="/get/duets"><code>GET&nbsp;&nbsp;duets</code></a></li>
+            <li><a href="/get/duets/:duet_id"><code>GET&nbsp;&nbsp;duets/:duet_id</code></a></li>
+            <li><a href="/get/duets/with/:with_id"><code>GET&nbsp;&nbsp;duets/with/:with_id</code></a></li>
+            <li><a href="/post/duets/:duet_id/propose"><code>POST&nbsp;duets/:duet_id/propose</code></a></li>
+            <li><a href="/post/duets/:duet_id/accept"><code>POST&nbsp;duets/:duet_id/accept</code></a></li>
+            <li><a href="/post/duets/:duet_id/decline"><code>POST&nbsp;duets/:duet_id/decline</code></a></li>
             <li><a href="/post/duets/:duet_id/update"><code>POST&nbsp;duets/:duet_id/update</code></a></li>
             <li><a href="/post/duets/:duet_id/complete"><code>POST&nbsp;duets/:duet_id/complete</code></a></li>
-            <li><a href="/post/duets/:duet_id/destroy"><code>POST&nbsp;duets/:duet_id/destroy</code></a></li>
+            <li><a href="/post/duets/:duet_id/cancel"><code>POST&nbsp;duets/:duet_id/cancel</code></a></li>
           </ul>
         </li>
         <li>
@@ -68,14 +65,6 @@
             <li><a href="/get/duets/:duet_id/items"><code>GET&nbsp;&nbsp;duets/:duet_id/items</code></a></li>
             <li><a href="/post/duets/:duet_id/items"><code>POST&nbsp;duets/:duet_id/items</code></a></li>
             <li><a href="/post/duets/:duet_id/items/:item_id/destroy"><code>POST&nbsp;duets/:duet_id/items/:id/destroy</code></a></li>
-          </ul>
-        </li>
-        <li>
-          <strong>Dittos</strong>
-          <ul>
-            <li><a href="/get/dittos"><code>GET&nbsp;&nbsp;dittos</code></a></li>
-            <li><a href="/post/dittos"><code>POST&nbsp;dittos</code></a></li>
-            <li><a href="/post/dittos/:ditto_id/destroy"><code>POST&nbsp;dittos/:ditto_id/destroy</code></a></li>
           </ul>
         </li>
       </ul>
