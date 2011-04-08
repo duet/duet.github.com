@@ -38,6 +38,6 @@ paginated list accounts a single duet account is connected to.
 
 * **method**: `GET`
 * **arguments**:
-  * `num` - default: 10
+  * `per` - default: 10
   * `page` - default: 1
 * **returns**: array of accounts

@@ -25,7 +25,7 @@ JSON
 
 ### Optional
 
-* `num` - default: 10
+* `per` - default: 10
 * `page` - default: 1
 
 ## Response

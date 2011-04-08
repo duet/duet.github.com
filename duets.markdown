@@ -11,7 +11,7 @@ Returns a list of publicly available duets for use in public areas of the app in
 
 * **method**: `GET`
 * **arguments**:
-  * `num` - default: 10
+  * `per` - default: 10
   * `page` - default: 1
 * **returns**: array of duets sorted by date DESC
 * **authentication required**: no
@@ -22,7 +22,7 @@ Returns a list of featured duets for use in public areas of the app.
 
 * **method**: `GET`
 * **arguments**:
-  * `num` - default: 10
+  * `per` - default: 10
   * `page` - default: 1
 * **returns**: array of duets
 * **authentication required**: no
@@ -34,7 +34,7 @@ Returns a list of all duets related to the current account.
 
 * **method**: `GET`
 * **arguments**:
-  * `num` - default: 10
+  * `per` - default: 10
   * `page` - default: 1
 * **returns**: array of duets sorted by date DESC
 
@@ -44,7 +44,7 @@ Returns a list of all proposed duets related to the current account.
 
 * **method**: `GET`
 * **arguments**:
-  * `num` - default: 10
+  * `per` - default: 10
   * `page` - default: 1
 * **returns**: array of duets sorted by date DESC
 
@@ -54,7 +54,7 @@ Returns a list of all completed duets related to the current account.
 
 * **method**: `GET`
 * **arguments**:
-  * `num` - default: 10
+  * `per` - default: 10
   * `page` - default: 1
 * **returns**: array of duets sorted by date DESC
 
