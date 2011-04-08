@@ -28,6 +28,10 @@ JSON
 
 * `duet[body]` - limit 100 characters
 
+### Optional
+
+* `duet[propose_to]` - `id` of account in your circle or phone number of person that isn't in your circle you want to propose this duet to.
+
 ## Response
 
 A duet object.
