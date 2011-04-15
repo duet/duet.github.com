@@ -4,7 +4,7 @@ title: POST duets/:duet_id/complete
 ---
 # `{{page.title}}`
 
-Mark a duet completed.
+Mark a duet completed.  This can be done by either party involved in the duet.
 
 ## URL
 
@@ -29,7 +29,14 @@ A duet object.
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.duet.basic}}
+{
+    "id": 92,
+    "prefix": "Let's",
+    "body": "bake a cake",
+    "state": "completed",
+    "proposed_by_id": 1,
+    "proposed_to_id": 2
+}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
