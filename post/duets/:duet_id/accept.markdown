@@ -1,6 +1,6 @@
 ---
 layout: default
-title: POST duets/invitations/:duet_id/accept
+title: POST duets/:duet_id/accept
 ---
 # `{{page.title}}`
 
@@ -8,7 +8,7 @@ Accept a Duet invitation.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/invitations/:duet_id/accept`
+`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/accept`
 
 ## Format
 

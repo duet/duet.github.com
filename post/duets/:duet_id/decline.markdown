@@ -1,6 +1,6 @@
 ---
 layout: default
-title: POST duets/invitations/:duet_id/decline
+title: POST duets/:duet_id/decline
 ---
 # `{{page.title}}`
 
@@ -8,7 +8,7 @@ Decline a Duet invitation.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/invitations/:duet_id/decline`
+`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/decline`
 
 ## Format
 
@@ -26,20 +26,19 @@ JSON
 
 A duet object.
 
-### HTTP Code
-
-`200 OK` or `422 Unprocessable Entity`
-
-### JSON
+### `200 OK`
 
 {% highlight javascript linenos %}
 {
-    "duet" : {
-      "id": 34,
-      "title": "Make a pie.",
-      "is_shared": false,
-      "is_ditto": false,
-      "privacy": 2
-    }
+    "id": 92,
+    "prefix": "Let's",
+    "body": "bake a cake",
+    "state": "declined",
+    "proposed_by_id": 1,
+    "proposed_to_id": 2
 }
 {% endhighlight %}
+
+### `422 Unprocessable Entity`
+
+### `404 Not Found`
