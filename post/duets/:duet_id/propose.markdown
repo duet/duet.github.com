@@ -1,6 +1,6 @@
 ---
 layout: default
-title: POST duets/:id/propose
+title: POST duets/:duet_id/propose
 ---
 # `{{page.title}}`
 
@@ -8,7 +8,7 @@ Propose a duet to either an account in your circle or a phone number.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/:id/propose`
+`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/propose`
 
 ## Format
 

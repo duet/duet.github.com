@@ -1,6 +1,6 @@
 ---
 layout: default
-title: POST duets/invitations/:id/accept
+title: POST duets/invitations/:duet_id/accept
 ---
 # `{{page.title}}`
 
@@ -8,7 +8,7 @@ Accept a Duet invitation.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/invitations/:id/accept`
+`{{site.api.base_url}}/{{site.api.version}}/invitations/:duet_id/accept`
 
 ## Format
 
@@ -29,13 +29,16 @@ A duet object.
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.duet.basic}}
+{
+    "id": 92,
+    "prefix": "Let's",
+    "body": "bake a cake",
+    "state": "active",
+    "proposed_by_id": 1,
+    "proposed_to_id": 2
+}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
-
-{% highlight javascript linenos %}
-{{site.resources.duet.errors}}
-{% endhighlight %}
 
 ### `404 Not Found`

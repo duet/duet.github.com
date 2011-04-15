@@ -1,6 +1,6 @@
 ---
 layout: default
-title: POST duets/invitations/:id/decline
+title: POST duets/invitations/:duet_id/decline
 ---
 # `{{page.title}}`
 
@@ -8,7 +8,7 @@ Decline a Duet invitation.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/invitations/:id/decline`
+`{{site.api.base_url}}/{{site.api.version}}/invitations/:duet_id/decline`
 
 ## Format
 

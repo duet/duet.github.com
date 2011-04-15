@@ -1,14 +1,14 @@
 ---
 layout: default
-title: GET duets/:id
+title: GET duets/:duet_id
 ---
 # `{{page.title}}`
 
-Get duet matching the specified `:id`.
+Get duet matching the specified `:duet_id`.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/:id`
+`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id`
 
 ## Format
 
