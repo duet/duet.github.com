@@ -12,7 +12,7 @@ Authentication is attained by sending the authentication tokens via special requ
 
 ### Application-level Authentication
 
-Set the `X-Application-Token` request header with the value of application token given to you by the Duet team.  Each application (iphone, ipad, android, etc.) that integrates with the Duet API will have its own application token.
+Set the `X-Application-Token` request header with the value of application token given to you by the Duet team.  Each application (iphone, ipad, android, etc.) and version that integrates with the Duet API will have its own application token.
 
 ### Account-level Authentication
 
@@ -25,3 +25,13 @@ The `authentication_token` for an account can be obtained via the [`POST account
 ## Response if Authentication Fails
 
 If an API method requires authentication and authentication fails, a `401 Unauthorized` response is returned.
+
+## Other Headers
+
+The following other informational headers should be sent along with each request:
+
+* `X-Device-Identifier` - The unique identifier of the device sending the request.  e.g. on an iPhone, the `uuid`.
+* `X-Device-Software-Version` - The version of the operating system the device is running.
+* `X-Location-Lat` - The current latitude of the device if GPS-enabled.
+* `X-Location-Long` - The current longitude of the device if GPS-enabled.
+
