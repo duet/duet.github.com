@@ -4,7 +4,7 @@ title: POST duets/:duet_id/update
 ---
 # `{{page.title}}`
 
-Update an existing duet.
+Update an existing duet's body attribute.  This can only be done if the duet is still in the unpaired state.
 
 ## URL
 
@@ -26,11 +26,7 @@ JSON
 
 ### Required
 
-* `duet[body]` - this can only be updated if the duet has not been accepted or decline by someone.
-
-### Optional
-
-* `duet[with_id]` - the account id of the person you're inviting
+* `duet[body]`
 
 ## Response
 
