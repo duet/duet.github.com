@@ -14,7 +14,7 @@ resources:
           "phone": "2998841598",
           "last_name": "Ledner",
           "image": {
-              "large": "http://cdn.duet.me/default/large_account_image.png",
+              "original": "http://cdn.duet.me/default/original_account_image.png",
               "mini": "http://cdn.duet.me/default/mini_account_image.png",
               "medium": "http://cdn.duet.me/default/medium_account_image.png",
               "small": "http://cdn.duet.me/default/small_account_image.png"
@@ -27,7 +27,7 @@ resources:
       [
         {
           "image": {
-            "large": "http://cdn.duet.me/default/large_account_image.png",
+            "original": "http://cdn.duet.me/default/original_account_image.png",
             "mini": "http://cdn.duet.me/default/mini_account_image.png",
             "medium": "http://cdn.duet.me/default/medium_account_image.png",
             "small": "http://cdn.duet.me/default/small_account_image.png"
@@ -42,7 +42,7 @@ resources:
         },
         {
           "image": {
-            "large": "http://cdn.duet.me/default/large_account_image.png",
+            "original": "http://cdn.duet.me/default/original_account_image.png",
             "mini": "http://cdn.duet.me/default/mini_account_image.png",
             "medium": "http://cdn.duet.me/default/medium_account_image.png",
             "small": "http://cdn.duet.me/default/small_account_image.png"
@@ -57,7 +57,7 @@ resources:
         },
         {
           "image": {
-            "large": "http://cdn.duet.me/default/large_account_image.png",
+            "original": "http://cdn.duet.me/default/original_account_image.png",
             "mini": "http://cdn.duet.me/default/mini_account_image.png",
             "medium": "http://cdn.duet.me/default/medium_account_image.png",
             "small": "http://cdn.duet.me/default/small_account_image.png"
