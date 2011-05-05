@@ -24,12 +24,12 @@ JSON
 
 ## Response
 
-A collection of item objects.
+A collection of item objects.  There are three types of item objects: `message`, `image`, and `video`.  In the json objects returned those nodes may or may not exist depending on the type of item it is.  In the case of `video` objects, they will have both a `video` and `image` key, the `image` being a screencap from the video.
 
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.duet.basic}}
+{{site.resources.item.collection}}
 {% endhighlight %}
 
 ### `404 Not Found`
