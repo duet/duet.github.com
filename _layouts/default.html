@@ -14,6 +14,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/stylesheets/style.css">
   <link rel="stylesheet" href="/stylesheets/syntax.css">
+  <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      $('header').css('height', $(document).height());
+    });
+  </script>
 </head>
 
 <body>
@@ -62,8 +68,8 @@
         <li>
           <strong>Items</strong>
           <ul>
-            <li><a href="/get/duets/:duet_id/items"><code>GET&nbsp;&nbsp;duets/:duet_id/items</code></a></li>
-            <li><a href="/post/duets/:duet_id/items"><code>POST&nbsp;duets/:duet_id/items</code></a></li>
+            <li><a href="/get/duets/:duet_id/items"><code>GET&nbsp;&nbsp;duets/:duet_id/items</code><span class="implemented"> *</span></a></li>
+            <li><a href="/post/duets/:duet_id/items"><code>POST&nbsp;duets/:duet_id/items</code><span class="implemented"> *</span></a></li>
             <li><a href="/post/duets/:duet_id/items/:item_id/destroy"><code>POST&nbsp;duets/:duet_id/items/:item_id/destroy</code></a></li>
           </ul>
         </li>
