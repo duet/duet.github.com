@@ -94,7 +94,7 @@ resources:
           "id": 92,
           "prefix": "Let's",
           "body": "bake a cake",
-          "video": "http://cdn.duet.me/uploads/duet/video/2/video.mp4",
+          "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
           "state": "unpaired"
       }
     collection: |
@@ -109,7 +109,7 @@ resources:
             "id": 12,
             "prefix": "Let's",
             "body": "have a beer",
-            "video": "http://cdn.duet.me/uploads/duet/video/2/video.mp4",
+            "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
             "state": "unpaired"
         },
         {
@@ -132,7 +132,7 @@ resources:
           "created_at": "Thu, 05 May 2011 12:10:41 -0400",
           "message": "This is a test.",
           "image": "http://cdn.duet.me/uploads/item/image/2/image.png",
-          "video": "http://cdn.duet.me/uploads/item/video/2/video.mp4"
+          "video": "http://cdn.duet.me/uploads/item/video/2/video.m4v"
       }
     collection: |
       [
@@ -143,7 +143,7 @@ resources:
             "created_at": "Thu, 01 May 2011 16:31:58 -0400",
             "message": "This is a test.",
             "image": "http://cdn.duet.me/uploads/item/image/2/image.png",
-            "video": "http://cdn.duet.me/uploads/item/video/2/video.mp4"
+            "video": "http://cdn.duet.me/uploads/item/video/2/video.m4v"
         },
         {
             "id": 6,
