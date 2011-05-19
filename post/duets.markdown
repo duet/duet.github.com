@@ -28,6 +28,10 @@ JSON
 
 * `duet[body]` - limit 100 characters
 
+### Optional
+
+* `duet[video]` - a video in m4v format
+
 ## Response
 
 A duet object.
