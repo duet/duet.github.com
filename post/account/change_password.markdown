@@ -34,15 +34,17 @@ A JSON object containing privacy settings for the account.
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.account.basic}}
+{{site.api.resources.account.basic}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
 
 {% highlight javascript linenos %}
 {
-    "password": [
-      "doesn't match confirmation"
-    ],
+    "errors" : {
+        "password": [
+          "doesn't match confirmation"
+        ]
+    }
 }
 {% endhighlight %}

@@ -40,11 +40,11 @@ An item object.
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.item.basic}}
+{{site.api.resources.item.basic}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
 
 {% highlight javascript linenos %}
-{{site.resources.item.errors}}
+{{site.api.resources.item.errors}}
 {% endhighlight %}

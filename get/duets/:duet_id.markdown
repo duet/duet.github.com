@@ -29,7 +29,7 @@ A duet object.
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.duet.basic}}
+{{site.api.resources.duet.basic}}
 {% endhighlight %}
 
 ### `404 Not Found`

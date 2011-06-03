@@ -29,7 +29,7 @@ A collection of item objects.  There are three types of item objects: `message`,
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.item.collection}}
+{{site.api.resources.item.collection}}
 {% endhighlight %}
 
 ### `404 Not Found`

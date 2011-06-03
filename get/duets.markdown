@@ -40,5 +40,5 @@ An array of duet JSON objects.
 ### JSON
 
 {% highlight javascript linenos %}
-{{site.resources.duet.collection}}
+{{site.api.resources.duet.collection}}
 {% endhighlight %}

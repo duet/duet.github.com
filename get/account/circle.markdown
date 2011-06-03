@@ -39,5 +39,5 @@ An array of account JSON objects.
 ### JSON
 
 {% highlight javascript linenos %}
-{{site.resources.account.collection}}
+{{site.api.resources.account.collection}}
 {% endhighlight %}

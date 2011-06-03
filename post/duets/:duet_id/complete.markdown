@@ -42,7 +42,7 @@ A duet object.
 ### `422 Unprocessable Entity`
 
 {% highlight javascript linenos %}
-{{site.resources.duet.errors}}
+{{site.api.resources.duet.errors}}
 {% endhighlight %}
 
 ### `404 Not Found`

@@ -35,13 +35,15 @@ An account JSON object.
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.account.basic}}
+{{site.api.resources.account.basic}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
 
 {% highlight javascript linenos %}
 {
-    "image": ["is not an allowed file type"]
+    "errors" : {
+        "image": ["is not an allowed file type"]
+    }
 }
 {% endhighlight %}

@@ -34,7 +34,7 @@ A JSON object containing privacy settings for the account.
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.account.privacy}}
+{{site.api.resources.account.privacy}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`

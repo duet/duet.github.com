@@ -39,11 +39,11 @@ A duet object.
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.duet.basic}}
+{{site.api.resources.duet.basic}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
 
 {% highlight javascript linenos %}
-{{site.resources.duet.errors}}
+{{site.api.resources.duet.errors}}
 {% endhighlight %}

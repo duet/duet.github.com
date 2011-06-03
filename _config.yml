@@ -5,162 +5,196 @@ permalink: pretty
 api:
   base_url: https://api.duet.me
   version: 1
-resources:
-  account:
-    basic: |
-      {
-          "id": 92,
-          "gender": "m",
-          "phone": "2998841598",
-          "last_name": "Ledner",
-          "image": {
-              "original": "http://cdn.duet.me/default/original_account_image.png",
-              "mini": "http://cdn.duet.me/default/mini_account_image.png",
-              "medium": "http://cdn.duet.me/default/medium_account_image.png",
-              "small": "http://cdn.duet.me/default/small_account_image.png"
-          },
-          "born_on": "1980-10-10",
-          "email": "account-6@email.com",
-          "first_name": "Merritt"
-      }
-    collection: |
-      [
+  resources:
+    account:
+      basic: |
+          {
+              "account" : {
+                  "id": 92,
+                  "gender": "m",
+                  "phone": "2998841598",
+                  "last_name": "Ledner",
+                  "image": {
+                    "original": "http://cdn.duet.me/default/original_account_image.png",
+                    "mini": "http://cdn.duet.me/default/mini_account_image.png",
+                    "medium": "http://cdn.duet.me/default/medium_account_image.png",
+                    "small": "http://cdn.duet.me/default/small_account_image.png"
+                    },
+                  "born_on": "1980-10-10",
+                  "email": "account-6@email.com",
+                  "first_name": "Merritt"
+              }
+          }
+      collection: |
+        [
         {
-          "image": {
-            "original": "http://cdn.duet.me/default/original_account_image.png",
-            "mini": "http://cdn.duet.me/default/mini_account_image.png",
-            "medium": "http://cdn.duet.me/default/medium_account_image.png",
-            "small": "http://cdn.duet.me/default/small_account_image.png"
-          },
-          "born_on": "1972-03-01",
-          "first_name": "Will",
-          "last_name": "Ferrell",
-          "gender": "m",
-          "phone": "9756457843",
-          "email": "will@ferrell.com",
-          "id": 1
+            "account": {
+                "image": {
+                    "original": "http://cdn.duet.me/default/original_account_image.png",
+                    "mini": "http://cdn.duet.me/default/mini_account_image.png",
+                    "medium": "http://cdn.duet.me/default/medium_account_image.png",
+                    "small": "http://cdn.duet.me/default/small_account_image.png"
+                },
+                "born_on": "1972-03-01",
+                "first_name": "Will",
+                "last_name": "Ferrell",
+                "gender": "m",
+                "phone": "9756457843",
+                "email": "will@ferrell.com",
+                "id": 1
+            }
         },
         {
-          "image": {
-            "original": "http://cdn.duet.me/default/original_account_image.png",
-            "mini": "http://cdn.duet.me/default/mini_account_image.png",
-            "medium": "http://cdn.duet.me/default/medium_account_image.png",
-            "small": "http://cdn.duet.me/default/small_account_image.png"
-          },
-          "born_on": null,
-          "first_name": "Bill",
-          "last_name": "Murray",
-          "gender": null,
-          "phone": "1231231234",
-          "email": "bill@murray.com",
-          "id": 2
+            "account": {
+                "image": {
+                    "original": "http://cdn.duet.me/default/original_account_image.png",
+                    "mini": "http://cdn.duet.me/default/mini_account_image.png",
+                    "medium": "http://cdn.duet.me/default/medium_account_image.png",
+                    "small": "http://cdn.duet.me/default/small_account_image.png"
+                },
+                "born_on": null,
+                "first_name": "Bill",
+                "last_name": "Murray",
+                "gender": null,
+                "phone": "1231231234",
+                "email": "bill@murray.com",
+                "id": 2
+            }
         },
         {
-          "image": {
-            "original": "http://cdn.duet.me/default/original_account_image.png",
-            "mini": "http://cdn.duet.me/default/mini_account_image.png",
-            "medium": "http://cdn.duet.me/default/medium_account_image.png",
-            "small": "http://cdn.duet.me/default/small_account_image.png"
-          },
-          "born_on": null,
-          "first_name": "Clint",
-          "last_name": "Eastwood",
-          "gender": null,
-          "phone": "3231231234",
-          "email": "clint@eastwood.com",
-          "id": 3
+            "account": {
+                "image": {
+                    "original": "http://cdn.duet.me/default/original_account_image.png",
+                    "mini": "http://cdn.duet.me/default/mini_account_image.png",
+                    "medium": "http://cdn.duet.me/default/medium_account_image.png",
+                    "small": "http://cdn.duet.me/default/small_account_image.png"
+                },
+                "born_on": null,
+                "first_name": "Clint",
+                "last_name": "Eastwood",
+                "gender": null,
+                "phone": "3231231234",
+                "email": "clint@eastwood.com",
+                "id": 3
+            }
         }
-      ]
-    sign_in: |
-      {
-          "authentication_token": "rya3yxlxLwIF2OHVJBcX2F2e7gqDGzHxmT3v7eD3E0Lu35ox8FKwzXRSQdoz"
-      }
-    privacy: |
-      {
-        "promenade_sharing": false,
-        "maximum_privacy": false
-      }
-    errors: |
-      {
-          "email": ["can't be blank"],
-          "password": ["can't be blank"],
-          "first_name": ["can't be blank"],
-          "last_name": ["can't be blank"],
-          "phone": ["can't be blank"]
-      }
-  duet:
-    basic: |
-      {
-          "id": 92,
-          "prefix": "Let's",
-          "body": "bake a cake",
-          "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
-          "state": "unpaired"
-      }
-    collection: |
-      [
+        ]
+      sign_in: |
         {
-            "id": 92,
-            "prefix": "Let's",
-            "body": "bake a cake",
-            "state": "unpaired"
-        },
-        {
-            "id": 12,
-            "prefix": "Let's",
-            "body": "have a beer",
-            "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
-            "state": "unpaired"
-        },
-        {
-            "id": 17,
-            "prefix": "Let's",
-            "body": "go run a race",
-            "state": "unpaired"
+            "account": {
+                "authentication_token": "rya3yxlxLwIF2OHVJBcX2F2e7gqDGzHxmT3v7eD3E0Lu35ox8FKwzXRSQdoz"
+            }
         }
-      ]
-    errors: |
-      {
-          "body": ["can't be blank"],
-      }
-  item:
-    basic: |
-      {
-          "id": 2,
-          "content_type": "video",
-          "created_by_id": 3,
-          "created_at": "Thu, 05 May 2011 12:10:41 -0400",
-          "message": "This is a test.",
-          "image": "http://cdn.duet.me/uploads/item/image/2/image.png",
-          "video": "http://cdn.duet.me/uploads/item/video/2/video.m4v"
-      }
-    collection: |
-      [
+      privacy: |
         {
-            "id": 2,
-            "content_type": "video",
-            "created_by_id": 3,
-            "created_at": "Thu, 01 May 2011 16:31:58 -0400",
-            "message": "This is a test.",
-            "image": "http://cdn.duet.me/uploads/item/image/2/image.png",
-            "video": "http://cdn.duet.me/uploads/item/video/2/video.m4v"
-        },
-        {
-            "id": 6,
-            "content_type": "image",
-            "created_by_id": 3,
-            "created_at": "Thu, 02 May 2011 12:10:41 -0400",
-            "image": "http://cdn.duet.me/uploads/item/image/2/image.png"
-        },
-        {
-            "id": 22,
-            "content_type": "message",
-            "created_by_id": 3,
-            "created_at": "Thu, 03 May 2011 09:09:12 -0400",
-            "message": "That's such a good idea!"
+            "account": {
+                "promenade_sharing": false,
+                "maximum_privacy": false
+            }
         }
-      ]
-    errors: |
-      {
-          "message": ["can't be blank"],
-      }
+      errors: |
+        {
+            "errors": {
+                "email": ["can't be blank"],
+                "password": ["can't be blank"],
+                "first_name": ["can't be blank"],
+                "last_name": ["can't be blank"],
+                "phone": ["can't be blank"]
+            }
+        }
+    duet:
+      basic: |
+        {
+            "duet": {
+                "id": 92,
+                "prefix": "Let's",
+                "body": "bake a cake",
+                "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
+                "state": "unpaired"
+            }
+        }
+      collection: |
+        [
+        {
+            "duet": {
+                "id": 92,
+                "prefix": "Let's",
+                "body": "bake a cake",
+                "state": "unpaired"
+            }
+        },
+        {
+            "duet": {
+                "id": 12,
+                "prefix": "Let's",
+                "body": "have a beer",
+                "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
+                "state": "unpaired"
+            }
+        },
+        {
+            "duet": {
+                "id": 17,
+                "prefix": "Let's",
+                "body": "go run a race",
+                "state": "unpaired"
+            }
+        }
+        ]
+      errors: |
+        {
+            "errors": {
+                "body": ["can't be blank"],
+            }
+        }
+    item:
+      basic: |
+        {
+            "item": {
+                "id": 2,
+                "content_type": "video",
+                "created_by_id": 3,
+                "created_at": "Thu, 05 May 2011 12:10:41 -0400",
+                "message": "This is a test.",
+                "image": "http://cdn.duet.me/uploads/item/image/2/image.png",
+                "video": "http://cdn.duet.me/uploads/item/video/2/video.m4v"
+            }
+        }
+      collection: |
+        [
+        {
+            "item": {
+                "id": 2,
+                "content_type": "video",
+                "created_by_id": 3,
+                "created_at": "Thu, 01 May 2011 16:31:58 -0400",
+                "message": "This is a test.",
+                "image": "http://cdn.duet.me/uploads/item/image/2/image.png",
+                "video": "http://cdn.duet.me/uploads/item/video/2/video.m4v"
+            }
+        },
+        {
+            "item": {
+                "id": 6,
+                "content_type": "image",
+                "created_by_id": 3,
+                "created_at": "Thu, 02 May 2011 12:10:41 -0400",
+                "image": "http://cdn.duet.me/uploads/item/image/2/image.png"
+            }
+        },
+        {
+            "item": {
+                "id": 22,
+                "content_type": "message",
+                "created_by_id": 3,
+                "created_at": "Thu, 03 May 2011 09:09:12 -0400",
+                "message": "That's such a good idea!"
+            }
+        }
+        ]
+      errors: |
+        {
+            "errors": {
+                "message": ["can't be blank"],
+            }
+        }

@@ -44,11 +44,11 @@ An account JSON object.  **Note**: If you want to sign the account in immediatel
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{{site.resources.account.basic}}
+{{site.api.resources.account.basic}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
 
 {% highlight javascript linenos %}
-{{site.resources.account.errors}}
+{{site.api.resources.account.errors}}
 {% endhighlight %}
