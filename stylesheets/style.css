@@ -137,6 +137,7 @@ span.implemented {
 }
 code, pre {
   background: #ededed;
+  line-height: 1.5em;
 }
 
 ul {

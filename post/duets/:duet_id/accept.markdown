@@ -29,14 +29,7 @@ A duet object.
 ### `200 OK`
 
 {% highlight javascript linenos %}
-{
-    "id": 92,
-    "prefix": "Let's",
-    "body": "bake a cake",
-    "state": "active",
-    "proposed_by_id": 1,
-    "proposed_to_id": 2
-}
+{{site.api.resources.duet.active}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`

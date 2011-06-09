@@ -107,10 +107,45 @@ api:
         {
             "duet": {
                 "id": 92,
+                "proposed_by_id": 1,
                 "prefix": "Let's",
                 "body": "bake a cake",
                 "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
                 "state": "unpaired"
+            }
+        }
+      active: |
+        {
+            "duet": {
+                "id": 92,
+                "prefix": "Let's",
+                "body": "bake a cake",
+                "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
+                "state": "active"
+                "proposed_by_id": 1,
+                "proposed_to_id": 13
+            }
+        }
+      proposed_to_phone_number: |
+        {
+            "duet": {
+                "proposed_by_id": 1,
+                "body": "watch a movie",
+                "state": "proposed",
+                "id": 1,
+                "propose_to_phone_number": "1234567890",
+                "prefix": "Let's"
+            }
+        }
+      proposed_to_account: |
+        {
+            "duet": {
+                "propose_to_account_id": 2,
+                "proposed_by_id": 1,
+                "body": "watch a movie",
+                "state": "proposed",
+                "id": 1,
+                "prefix": "Let's"
             }
         }
       collection: |
@@ -118,6 +153,7 @@ api:
         {
             "duet": {
                 "id": 92,
+                "proposed_by_id": 1,
                 "prefix": "Let's",
                 "body": "bake a cake",
                 "state": "unpaired"
@@ -126,6 +162,7 @@ api:
         {
             "duet": {
                 "id": 12,
+                "proposed_by_id": 1,
                 "prefix": "Let's",
                 "body": "have a beer",
                 "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
@@ -135,6 +172,7 @@ api:
         {
             "duet": {
                 "id": 17,
+                "proposed_by_id": 1,
                 "prefix": "Let's",
                 "body": "go run a race",
                 "state": "unpaired"

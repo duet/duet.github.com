@@ -34,15 +34,16 @@ A duet object.
 
 ### `200 OK`
 
+If the duet is being proposed to a phone number it will look like so:
+
 {% highlight javascript linenos %}
-{
-    "id": 92,
-    "prefix": "Let's",
-    "body": "bake a cake",
-    "state": "proposed",
-    "proposed_by_id": 1,
-    "proposed_to_account_id": 2
-}
+{{site.api.resources.duet.proposed_to_phone_number}}
+{% endhighlight %}
+
+If the duet is being proposed to an account in their circle it will look like so:
+
+{% highlight javascript linenos %}
+{{site.api.resources.duet.proposed_to_account}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`

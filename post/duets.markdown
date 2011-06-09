@@ -31,6 +31,7 @@ JSON
 ### Optional
 
 * `duet[video]` - a video in m4v format
+* `duet[propose_to]` - `id` of account in your circle or phone number of person that isn't in your circle you want to propose this duet to.
 
 ## Response
 
@@ -38,8 +39,22 @@ A duet object.
 
 ### `200 OK`
 
+If `duet[propose_to]` isn't set, the response will be a basic Duet object:
+
 {% highlight javascript linenos %}
 {{site.api.resources.duet.basic}}
+{% endhighlight %}
+
+If the duet is being proposed to a phone number it will look like so:
+
+{% highlight javascript linenos %}
+{{site.api.resources.duet.proposed_to_phone_number}}
+{% endhighlight %}
+
+If the duet is being proposed to an account in their circle it will look like so:
+
+{% highlight javascript linenos %}
+{{site.api.resources.duet.proposed_to_account}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
