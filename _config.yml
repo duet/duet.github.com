@@ -140,7 +140,7 @@ api:
       proposed_to_account: |
         {
             "duet": {
-                "propose_to_account_id": 2,
+                "proposed_to_id": 2,
                 "proposed_by_id": 1,
                 "body": "watch a movie",
                 "state": "proposed",
