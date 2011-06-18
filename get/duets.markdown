@@ -28,6 +28,7 @@ JSON
 
 * `per` - default: 10
 * `page` - default: 1
+* `filter` - filter duets by their current state. valid options are `proposed`, `active`, and `completed`.
 
 ## Response
 
