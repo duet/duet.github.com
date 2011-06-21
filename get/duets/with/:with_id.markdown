@@ -31,14 +31,6 @@ JSON
 
 ## Response
 
-An array of duet JSON objects.
+### `200 OK`
 
-### HTTP Code
-
-`200 OK`
-
-### JSON
-
-{% highlight javascript linenos %}
-{{site.api.resources.duet.collection}}
-{% endhighlight %}
+An array of Duet objects. See the [Duet Object documentation](/duet_object) for more information.

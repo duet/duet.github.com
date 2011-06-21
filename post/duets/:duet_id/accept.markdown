@@ -24,13 +24,9 @@ JSON
 
 ## Response
 
-A duet object.
-
 ### `200 OK`
 
-{% highlight javascript linenos %}
-{{site.api.resources.duet.active}}
-{% endhighlight %}
+A Duet object. See the [Duet Object documentation](/duet_object) for more information.
 
 ### `422 Unprocessable Entity`
 

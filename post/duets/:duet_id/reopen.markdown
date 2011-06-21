@@ -1,14 +1,14 @@
 ---
 layout: default
-title: POST duets/:duet_id/destroy
+title: POST duets/:duet_id/reopen
 ---
 # `{{page.title}}`
 
-Destroy a duet and **all its related items**.
+Reopen a duet that has been completed.  This can be done by either party involved in the duet.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/destroy`
+`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/reopen`
 
 ## Format
 

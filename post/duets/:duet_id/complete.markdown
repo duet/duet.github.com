@@ -24,20 +24,9 @@ JSON
 
 ## Response
 
-A duet object.
-
 ### `200 OK`
 
-{% highlight javascript linenos %}
-{
-    "id": 92,
-    "prefix": "Let's",
-    "body": "bake a cake",
-    "state": "completed",
-    "proposed_by_id": 1,
-    "proposed_to_id": 2
-}
-{% endhighlight %}
+A Duet object. See the [Duet Object documentation](/duet_object) for more information.
 
 ### `422 Unprocessable Entity`
 

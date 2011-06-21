@@ -30,21 +30,9 @@ JSON
 
 ## Response
 
-A duet object.
-
 ### `200 OK`
 
-If the duet is being proposed to a phone number it will look like so:
-
-{% highlight javascript linenos %}
-{{site.api.resources.duet.proposed_to_phone_number}}
-{% endhighlight %}
-
-If the duet is being proposed to an account in their circle it will look like so:
-
-{% highlight javascript linenos %}
-{{site.api.resources.duet.proposed_to_account}}
-{% endhighlight %}
+A Duet object. See the [Duet Object documentation](/duet_object) for more information.
 
 ### `422 Unprocessable Entity`
 
