@@ -17,7 +17,15 @@
   <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript" charset="utf-8">
     $(document).ready(function() {
-      $('header').css('height', $(document).height());
+      var header = $('header');
+      var headerHeight = header.height();
+      var content = $('#main');
+      var contentHeight = content.height();
+      if (headerHeight > contentHeight) {
+        content.css('height', headerHeight + 'px');
+      } else {
+        header.css('height', contentHeight + 'px');
+      }
     });
   </script>
 </head>
@@ -61,7 +69,7 @@
             <li><a href="/post/duets/:duet_id/update"><code>POST&nbsp;duets/:duet_id/update</code><span class="implemented"> *</span></a></li>
             <li><a href="/post/duets/:duet_id/complete"><code>POST&nbsp;duets/:duet_id/complete</code><span class="implemented"> *</span></a></li>
             <li><a href="/post/duets/:duet_id/cancel"><code>POST&nbsp;duets/:duet_id/cancel</code></a></li>
-            <li><a href="/post/duets/:duet_id/reopen"><code>POST&nbsp;duets/:duet_id/reopen</code></a></li>
+            <li><a href="/post/duets/:duet_id/reopen"><code>POST&nbsp;duets/:duet_id/reopen</code><span class="implemented"> *</span></a></li>
           </ul>
         </li>
         <li>
@@ -80,7 +88,7 @@
     </div>
     
     <footer>
-
+      <p>All material &copy 2011 Crush + Lovely</p>
     </footer>
   </div> <!-- end of #container -->
 </body>
