@@ -35,7 +35,7 @@ An account JSON object containing the `authentication_token` only
 
 ### HTTP Code
 
-`200 OK` or `422 Unprocessable Entity`
+`200 OK` or `401 Unauthorized`
 
 ### JSON
 
