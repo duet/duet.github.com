@@ -99,10 +99,15 @@ If the duet was proposed to you by someone else, `proposed_by_me` will be false 
         "body": "watch a movie",
         "prefix": "Let's",
         "id": 2,
-        "state": "proposed"
+        "state": "proposed",
+        "activity": 1
     }
 }
 {% endhighlight %}
+
+### Activity
+
+The `activity` node contains a count of un-viewed activity related to the duet.
 
 ## Object Lifecycle
 

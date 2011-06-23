@@ -41,7 +41,8 @@ api:
                 "gender": "m",
                 "phone": "9756457843",
                 "email": "will@ferrell.com",
-                "id": 1
+                "id": 1,
+                "activity": 0
             }
         },
         {
@@ -58,7 +59,8 @@ api:
                 "gender": null,
                 "phone": "1231231234",
                 "email": "bill@murray.com",
-                "id": 2
+                "id": 2,
+                "activity": 3
             }
         },
         {
@@ -75,7 +77,8 @@ api:
                 "gender": null,
                 "phone": "3231231234",
                 "email": "clint@eastwood.com",
-                "id": 3
+                "id": 3,
+                "activity": null
             }
         }
         ]

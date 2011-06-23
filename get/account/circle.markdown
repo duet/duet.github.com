@@ -38,6 +38,8 @@ An array of account JSON objects.
 
 ### JSON
 
+The `activity` node contains a count of un-viewed activity related to each account.
+
 {% highlight javascript linenos %}
 {{site.api.resources.account.collection}}
 {% endhighlight %}
