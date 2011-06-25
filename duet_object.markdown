@@ -54,7 +54,7 @@ If the duet is being proposed to an account in your circle or an account match v
 }
 {% endhighlight %}
 
-If the duet is being proposed to a phone number and no matching accounts could be found, `proposed_to` will only contain `phone` as well ass `first_name` and `last_name` if they were provided. `proposed_to_account` will be `false`.
+If the duet is being proposed to a phone number and no matching accounts could be found, `proposed_to` will only contain `phone` as well as `first_name`, `last_name`, and `image` if they were provided. `proposed_to_account` will be `false`.
 
 {% highlight javascript linenos %}
 {
@@ -62,7 +62,13 @@ If the duet is being proposed to a phone number and no matching accounts could b
         "proposed_to": {
           "phone": "747724958744",
           "last_name": "Eichmann",
-          "first_name": "Ubaldo"
+          "first_name": "Ubaldo",
+          "image": {
+              "medium": "/uploads/duet/propose_to_phone_number_image/2/medium_image.png",
+              "mini": "/uploads/duet/propose_to_phone_number_image/2/mini_image.png",
+              "small": "/uploads/duet/propose_to_phone_number_image/2/small_image.png",
+              "original": "/uploads/duet/propose_to_phone_number_image/2/original_image.png"
+          }
         },
         "proposed_by_me": true,
         "body": "aut dolor id",
