@@ -1,14 +1,14 @@
 ---
 layout: default
-title: POST duets/:duet_id/destroy
+title: POST duets/:duet_id/cancel
 ---
 # `{{page.title}}`
 
-Destroy a duet and **all its related items**.
+Cancel a duet.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/destroy`
+`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/cancel`
 
 ## Format
 
