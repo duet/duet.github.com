@@ -115,6 +115,35 @@ If the duet was proposed to you by someone else, `proposed_by_me` will be false 
 
 The `activity` node contains a count of un-viewed activity related to the duet.
 
+### Declined & Canceled Duets
+
+If a duet is [declined](/post/duets/:duet_id/declined/) or [canceled](/post/duets/:duet_id/canceled/),  nodes telling you who, why, and when will be included in the duet object.  The `*_by` nodes will contain the account_id of the account that declined/canceled the duet.  The `*_why` will either be `null` or a string containing a message why the duet was declined or canceled.  The `*_at` will tell you when the action occurred.
+
+{% highlight javascript linenos %}
+{
+    "duet": {
+        ...
+        "declined_why": "I don't want to do that with you.",
+        "declined_at": "Thu, 30 Jun 2011 02:23:58 -0400",
+        "declined_by": 1,
+        "state": "declined"
+    }
+}
+{% endhighlight %}
+
+{% highlight javascript linenos %}
+{
+    "duet": {
+        ...
+        "canceled_why": "I don't want to do that with you.",
+        "canceled_at": "Thu, 30 Jun 2011 02:23:58 -0400",
+        "canceled_by": 1,
+        "state": "canceled"
+    }
+}
+{% endhighlight %}
+
+
 <h2 id="object-lifecycle">Object Lifecycle</h2>
 
 A duet object goes through several different states during its lifespan and there are specific actions that can be called on a duet to move it from one state to another.  The diagram below illustrates this.

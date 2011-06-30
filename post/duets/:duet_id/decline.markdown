@@ -4,7 +4,7 @@ title: POST duets/:duet_id/decline
 ---
 # `{{page.title}}`
 
-Decline a Duet invitation.
+Decline a Duet invitation.  Once you decline a duet, it will no longer appear in your account.
 
 ## URL
 
@@ -22,6 +22,12 @@ JSON
 
 `true`
 
+## Parameters
+
+### Optional
+
+* `duet[declined_why]` - a message why the duet was declined.
+
 ## Response
 
 ### `200 OK`
@@ -29,5 +35,9 @@ JSON
 A Duet object. See the [Duet Object documentation](/duet_object) for more information.
 
 ### `422 Unprocessable Entity`
+
+{% highlight javascript linenos %}
+{{site.api.resources.duet.errors}}
+{% endhighlight %}
 
 ### `404 Not Found`

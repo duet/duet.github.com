@@ -4,7 +4,7 @@ title: POST duets/:duet_id/cancel
 ---
 # `{{page.title}}`
 
-Cancel a duet.
+Cancel a duet.  Once you cancel a duet, it will no longer appear in your account.
 
 ## URL
 
@@ -21,6 +21,12 @@ JSON
 ## Account Authentication Required
 
 `true`
+
+## Parameters
+
+### Optional
+
+* `duet[canceled_why]` - a message why the duet was canceled.
 
 ## Response
 
