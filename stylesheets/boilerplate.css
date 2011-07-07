@@ -32,17 +32,15 @@ hr { display:block; height:1px; border:0; border-top:1px solid #ccc; margin:1em 
 input, select { vertical-align:middle; }
 
 
-body { background: #f2f1eb; font:13px/1.231 sans-serif; *font-size:small; } 
+body { background: #fff; font:13px/1.231 sans-serif; *font-size:small; } 
 select, input, textarea, button { font:99% sans-serif; }
 pre, code, kbd, samp { font-family: monospace, sans-serif; }
 
-body, select, input, textarea {   color: #444; }
+body, select, input, textarea {   color: #000; }
 h1,h2,h3,h4,h5,h6 { font-weight: bold; }
 html { overflow-y: scroll; }
 
 a:hover, a:active { outline: none; }
-a, a:active, a:visited { color: rgba(70,116,137, 0.75); }
-a:hover { color: rgba(70,116,137, 1); }
 
 ul, ol { margin-left: 1.8em; }
 ol { list-style-type: decimal; }
@@ -81,92 +79,3 @@ button {  width: auto; overflow: visible; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
 
-header {
-  float: left;
-  background: #f2f1eb;
-  width: 28em;
-  margin: 0;
-  padding: 0 1em;
-  border-right: 0.25em solid rgba(0,0,0,0.25);
-}
-header ul li a {
-  display: block;
-  text-decoration: none;
-}
-header ul li.na a {
-  text-decoration: line-through;
-}
-header h1 { 
-  padding-top: 1em;
-}
-header h1 img { 
-  width: 90px;
-  height: 37px;
-}
-#main {
-  background: rgba(246,245,243,1);
-  padding: 0 0 0 2em;
-  margin-left: 30em;
-}
-#main h1 {
-  padding-top: 1.375em;
-}
-footer {
-  clear: both;
-  padding: 1em;
-  border-top: 0.25em solid rgba(0,0,0,0.25);
-}
-h1 {
-  font-size: 2em;
-}
-
-h2 {
-  font-size: 1.5em;
-}
-
-h3 {
-  font-size: 1.25em;
-}
-
-h4 {
-  font-size: 1em;
-}
-
-h1, h2, h3, h4, h5, h6, p, ul, ol, li, div.highlight {
-  margin-bottom: 1em;
-  line-height: 1.5em;
-}
-li { 
-  margin-bottom: 0; 
-}
-span.implemented {
-  font-weight: bold;
-  color: #c00;
-}
-code, pre {
-  background: #ededed;
-  line-height: 1.5em;
-}
-
-ul {
-  list-style: none;
-  margin-left: 0;
-}
-
-ul ul {
-  margin-top: 1em;
-  margin-left: 1em;
-}
-
-.push {
-  margin-bottom: 1em;
-}
-
-#main img {
-  border: 0.25em solid rgba(0,0,0,0.25)
-}
-
-ul.text li {
-  list-style: square;
-  margin: 0 0 1em 1.5em;
-}

@@ -39,6 +39,6 @@ An account JSON object containing the `authentication_token` only
 
 ### JSON
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {{site.api.resources.account.sign_in}}
 {% endhighlight %}

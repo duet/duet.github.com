@@ -45,6 +45,6 @@ A Duet object. See the [Duet Object documentation](/duet_object) for more inform
 
 ### `422 Unprocessable Entity`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {{site.api.resources.duet.errors}}
 {% endhighlight %}

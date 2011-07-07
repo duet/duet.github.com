@@ -41,12 +41,12 @@ An account JSON object.  **Note**: You cannot update an account's password, prof
 
 ### `200 OK`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {{site.api.resources.account.basic}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {{site.api.resources.account.errors}}
 {% endhighlight %}

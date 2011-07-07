@@ -33,7 +33,7 @@ A JSON object containing privacy settings for the account.
 
 ### `200 OK`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {{site.api.resources.account.privacy}}
 {% endhighlight %}
 

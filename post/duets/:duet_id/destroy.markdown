@@ -35,7 +35,7 @@ JSON
 
 ### `422 Unprocessable Entity`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {{site.api.resources.duet.errors}}
 {% endhighlight %}
 

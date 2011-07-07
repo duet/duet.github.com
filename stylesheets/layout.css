@@ -1,0 +1,109 @@
+body,
+select,
+input,
+textarea {
+  color: #444; 
+}
+
+a, a:active, a:visited { color: rgba(70,116,137, 0.75); }
+a:hover { color: rgba(70,116,137, 1); }
+
+header {
+  margin: 0 0 2em 0;
+  padding: 2em;
+  background: #ededed;
+  border-bottom: 1px solid #444;
+}
+
+header h1, 
+header h2 {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  float: left;
+  width: 30em;
+  padding: 0 2em;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+}
+
+nav ul li.na a {
+  text-decoration: line-through;
+}
+
+article {
+  margin-left: 34em;
+  padding-right: 2em;
+}
+
+footer {
+  clear: both;
+  padding: 2em;
+  background: #ededed;
+  border: 1px solid #444;
+  border-left: 0;
+  border-right: 0;
+}
+
+footer p {
+  margin: 0;
+}
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, li, div.highlight {
+  margin-bottom: 1em;
+  line-height: 1.5em;
+}
+li { 
+  margin-bottom: 0; 
+}
+span.implemented {
+  font-weight: bold;
+  color: #c00;
+}
+code, pre {
+  background: #ededed;
+  line-height: 1.5em;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+ul ul {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.push {
+  margin-bottom: 1em;
+}
+
+article img {
+  border: 0.25em solid rgba(0,0,0,0.25)
+}
+
+ul.text li {
+  list-style: square;
+  margin: 0 0 1em 1.5em;
+}

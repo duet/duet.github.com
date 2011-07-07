@@ -28,6 +28,6 @@ An account JSON object.
 
 ### `200 OK`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {{site.api.resources.account.basic}}
 {% endhighlight %}

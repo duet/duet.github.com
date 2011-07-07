@@ -33,13 +33,13 @@ A JSON object containing privacy settings for the account.
 
 ### `200 OK`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {{site.api.resources.account.basic}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {
     "errors" : {
         "password": [

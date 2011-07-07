@@ -12,7 +12,7 @@ This page aims to provide an overview of what you can expect when parsing an API
 
 When you create a duet, if `duet[propose_to]` isn't set, the response will be the simplest form of a Duet object:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {
     "duet": {
         "proposed_by_me": true,
@@ -26,7 +26,7 @@ When you create a duet, if `duet[propose_to]` isn't set, the response will be th
 
 If the duet is being proposed to an account in your circle or an account match via phone number occurs, `proposed_by_me` and `proposed_by_account` will be `true`:
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {
     "duet": {
         "proposed_by_me": true,
@@ -56,7 +56,7 @@ If the duet is being proposed to an account in your circle or an account match v
 
 If the duet is being proposed to a phone number and no matching accounts could be found, `proposed_to` will only contain `phone` as well as `first_name`, `last_name`, and `image` if they were provided. `proposed_to_account` will be `false`.
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {
     "duet": {
         "proposed_to": {
@@ -83,7 +83,7 @@ If the duet is being proposed to a phone number and no matching accounts could b
 
 If the duet was proposed to you by someone else, `proposed_by_me` will be false and the `proposed_by` node will have the proposing account's information.
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {
     "duet": {
         "proposed_by_me": false,
@@ -119,7 +119,7 @@ The `activity` node contains a count of un-viewed activity related to the duet.
 
 If a duet is [declined](/post/duets/:duet_id/declined/) or [canceled](/post/duets/:duet_id/canceled/),  nodes telling you who, why, and when will be included in the duet object.  The `*_by` nodes will contain the account_id of the account that declined/canceled the duet.  The `*_why` will either be `null` or a string containing a message why the duet was declined or canceled.  The `*_at` will tell you when the action occurred.
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {
     "duet": {
         ...
@@ -131,7 +131,7 @@ If a duet is [declined](/post/duets/:duet_id/declined/) or [canceled](/post/duet
 }
 {% endhighlight %}
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {
     "duet": {
         ...

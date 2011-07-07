@@ -12,31 +12,23 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/stylesheets/style.css">
+  <link rel="stylesheet" href="/stylesheets/boilerplate.css">
+  <link rel="stylesheet" href="/stylesheets/layout.css">
   <link rel="stylesheet" href="/stylesheets/syntax.css">
   <script src="/javascripts/jquery.js" type="text/javascript" charset="utf-8"></script>
-  <script type="text/javascript" charset="utf-8">
-    $(document).ready(function() {
-      var header = $('header');
-      var headerHeight = header.height();
-      var content = $('#main');
-      var contentHeight = content.height();
-      if (headerHeight > contentHeight) {
-        content.css('height', headerHeight + 'px');
-      } else {
-        header.css('height', contentHeight + 'px');
-      }
-    });
-  </script>
 </head>
 
 <body>
   <div id="container">
     <header>
       <h1>
-        <img src="/images/logo.png" alt="Duet" />
-        API
+        Duet
       </h1>
+      <h2>
+        API Documentation
+      </h2>
+    </header>
+    <nav>
       <p><span class="implemented"> *</span> - fully implemented</p>
       <ul>
         <li class="push">
@@ -82,14 +74,14 @@
           </ul>
         </li>
       </ul>
-    </header>
+    </nav>
     
-    <div id="main">
+    <article>
       {{content}}
-    </div>
+    </article>
     
     <footer>
-      <p>All material &copy 2011 Crush + Lovely</p>
+      <p>All material &copy; 2011 Crush + Lovely</p>
     </footer>
   </div> <!-- end of #container -->
 </body>

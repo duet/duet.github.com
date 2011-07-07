@@ -39,12 +39,12 @@ An item object.
 
 ### `200 OK`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {{site.api.resources.item.basic}}
 {% endhighlight %}
 
 ### `422 Unprocessable Entity`
 
-{% highlight javascript linenos %}
+{% highlight javascript %}
 {{site.api.resources.item.errors}}
 {% endhighlight %}
