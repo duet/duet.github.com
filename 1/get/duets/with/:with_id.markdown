@@ -33,4 +33,4 @@ JSON
 
 ### `200 OK`
 
-An array of Duet objects. See the [Duet Object documentation](/duet_object) for more information.
+An array of Duet objects. See the [Duet Object documentation](/1/duet_object) for more information.

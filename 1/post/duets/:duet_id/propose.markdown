@@ -1,14 +1,14 @@
 ---
 layout: default
-title: POST duets
+title: POST duets/:duet_id/propose
 ---
 # `{{page.title}}`
 
-Creates a new duet with the current account as the proposer.
+Propose a duet to either an account in your circle or a phone number.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets`
+`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/propose`
 
 ## Format
 
@@ -24,10 +24,6 @@ JSON
 
 ## Parameters
 
-### Required
-
-* `duet[body]` - limit 100 characters
-
 ### Optional
 
 * `duet[video]` - a video in m4v format
@@ -41,7 +37,7 @@ JSON
 
 ### `200 OK`
 
-A Duet object. See the [Duet Object documentation](/duet_object) for more information.
+A Duet object. See the [Duet Object documentation](/1/duet_object) for more information.
 
 ### `422 Unprocessable Entity`
 

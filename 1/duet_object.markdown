@@ -117,7 +117,7 @@ The `activity` node contains a count of un-viewed activity related to the duet.
 
 ### Declined & Canceled Duets
 
-If a duet is [declined](/post/duets/:duet_id/declined/) or [canceled](/post/duets/:duet_id/canceled/),  nodes telling you who, why, and when will be included in the duet object.  The `*_by` nodes will contain the account_id of the account that declined/canceled the duet.  The `*_why` will either be `null` or a string containing a message why the duet was declined or canceled.  The `*_at` will tell you when the action occurred.
+If a duet is [declined](/1/post/duets/:duet_id/declined/) or [canceled](/1/post/duets/:duet_id/canceled/),  nodes telling you who, why, and when will be included in the duet object.  The `*_by` nodes will contain the account_id of the account that declined/canceled the duet.  The `*_why` will either be `null` or a string containing a message why the duet was declined or canceled.  The `*_at` will tell you when the action occurred.
 
 {% highlight javascript %}
 {

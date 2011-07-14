@@ -26,7 +26,7 @@ JSON
 
 ### `200 OK`
 
-A Duet object. See the [Duet Object documentation](/duet_object) for more information.
+A Duet object. See the [Duet Object documentation](/1/duet_object) for more information.
 
 ### `422 Unprocessable Entity`
 

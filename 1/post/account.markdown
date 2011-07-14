@@ -39,7 +39,7 @@ JSON
 
 ## Response
 
-An account JSON object.  **Note**: If you want to sign the account in immediately after successfully creating it, an immediate call to [`POST account/sign_in`](/post/account/sign_in) should be made so the `authentication_token` can be retrieved.
+An account JSON object.  **Note**: If you want to sign the account in immediately after successfully creating it, an immediate call to [`POST account/sign_in`](/1/post/account/sign_in) should be made so the `authentication_token` can be retrieved.
 
 ### `200 OK`
 

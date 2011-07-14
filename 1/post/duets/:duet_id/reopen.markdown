@@ -1,14 +1,14 @@
 ---
 layout: default
-title: POST duets/:duet_id/complete
+title: POST duets/:duet_id/reopen
 ---
 # `{{page.title}}`
 
-Mark a duet completed.  This can be done by either party involved in the duet.
+Reopen a duet that has been completed.  This can be done by either party involved in the duet.
 
 ## URL
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/complete`
+`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id/reopen`
 
 ## Format
 
@@ -26,7 +26,7 @@ JSON
 
 ### `200 OK`
 
-A Duet object. See the [Duet Object documentation](/duet_object) for more information.
+A Duet object. See the [Duet Object documentation](/1/duet_object) for more information.
 
 ### `422 Unprocessable Entity`
 
