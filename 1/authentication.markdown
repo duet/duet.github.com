@@ -31,7 +31,10 @@ If an API method requires authentication and authentication fails, a `401 Unauth
 The following other informational headers should be sent along with each request:
 
 * `X-Device-Identifier` - The unique identifier of the device sending the request.  e.g. on an iPhone, the `uuid`.
+* `X-Device-Push-Token` – The token (in hexadecimal format) needed to send push notifications if it exists. This would not be sent if a user opts out of push for our app. This token, if sent, should be represented as an uppercase string, 64 characters long, without spaces or other separators. e.g.
+
+    FE66489F304DC75B8D6E8200DFF8A456E8DAEACEC428B427E9518741C92C6660
 * `X-Device-Software-Version` - The version of the operating system the device is running.
 * `X-Location-Lat` - The current latitude of the device if GPS-enabled.
 * `X-Location-Long` - The current longitude of the device if GPS-enabled.
-
+* `X-Device-Language` – The preferred language string the user has set on their device. See this for more info on how to get that setting.
