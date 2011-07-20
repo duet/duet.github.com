@@ -1,51 +1,39 @@
 ---
 layout: default
-title: POST account/update
+resource: Account
+resource_id: account-update
+title: Update an account
 ---
-# `{{page.title}}`
+Update basic account information.  This does not include password or image updating.
 
-Update basic account information.  This does not include privacy options or the account password.
+### Request
 
-## URL
+<span class="method">POST</span> `{{site.api.base_url}}/{{site.api.version}}/account/update`
 
-`{{site.api.base_url}}/{{site.api.version}}/account/update`
-
-## Format
-
-JSON
-
-## HTTP Method
-
-`POST`
-
-## Account Authentication Required
+#### Account Authentication Required
 
 `true`
-## Parameters
 
-### Required
+#### Parameters
+
+<span class="required">*</span> - required
 
 * `account[first_name]`
 * `account[last_name]`
 * `account[email]`
 * `account[phone]`
 
-### Optional
+### Response
 
-* `account[gender]` - acceptable values: `m`, `f`
-* `account[born_on]` - format: `YYYY-MM-DD`
+An account JSON object.  **Note**: You cannot update an account's [password](/1/post/account/change_password) or [profile image](/1/post/account/image) from this method.  Use the respective methods available to handle those needs.
 
-## Response
-
-An account JSON object.  **Note**: You cannot update an account's password, profile image, or privacy settings from this method.  Use the respective methods available to handle those needs.
-
-### `200 OK`
+#### `200 OK`
 
 {% highlight javascript %}
 {{site.api.resources.account.basic}}
 {% endhighlight %}
 
-### `422 Unprocessable Entity`
+#### `422 Unprocessable Entity`
 
 {% highlight javascript %}
 {{site.api.resources.account.errors}}

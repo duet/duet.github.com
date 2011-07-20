@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Duet Object
+resource: Duets
+resource_id: duets-overview
+title: Overview
 ---
-# `{{page.title}}`
-
 A Duet object returned in an API response will vary depending on the state it is in.  The Duet object will mostly vary when it is in an unpaired or proposed state.  Once it becomes active, its format becomes much more predictable.
 
 This page aims to provide an overview of what you can expect when parsing an API response containing Duets.
 
-## JSON Responses
+### JSON Responses
 
 When you create a duet, if `duet[propose_to]` isn't set, the response will be the simplest form of a Duet object:
 
@@ -111,11 +111,11 @@ If the duet was proposed to you by someone else, `proposed_by_me` will be false 
 }
 {% endhighlight %}
 
-### Activity
+#### Activity
 
 The `activity` node contains a count of un-viewed activity related to the duet.
 
-### Declined & Canceled Duets
+#### Declined & Canceled Duets
 
 If a duet is [declined](/1/post/duets/:duet_id/declined/) or [canceled](/1/post/duets/:duet_id/canceled/),  nodes telling you who, why, and when will be included in the duet object.  The `*_by` nodes will contain the account_id of the account that declined/canceled the duet.  The `*_why` will either be `null` or a string containing a message why the duet was declined or canceled.  The `*_at` will tell you when the action occurred.
 
@@ -144,7 +144,7 @@ If a duet is [declined](/1/post/duets/:duet_id/declined/) or [canceled](/1/post/
 {% endhighlight %}
 
 
-<h2 id="object-lifecycle">Object Lifecycle</h2>
+<h3 id="object-lifecycle">Object Lifecycle</h3>
 
 A duet object goes through several different states during its lifespan and there are specific actions that can be called on a duet to move it from one state to another.  The diagram below illustrates this.
 

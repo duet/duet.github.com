@@ -1,44 +1,35 @@
 ---
 layout: default
-title: POST account/sign_in
+resource: Account
+resource_id: account-sign_in
+title: Signing in an Account
 ---
-# `{{page.title}}`
+Get the API key for an existing account based on a username/password combination.
 
-Get the API key for an existing account based on an email/password combination.
+### Request
 
-## URL
+<span class="method">POST</span> `{{site.api.base_url}}/{{site.api.version}}/account/sign_in`
 
-`{{site.api.base_url}}/{{site.api.version}}/account/sign_in`
-
-## Format
-
-JSON
-
-## HTTP Method
-
-`POST`
-
-## Account Authentication Required
+#### Account Authentication Required
 
 `false`
 
-## Parameters
+#### Parameters
 
-### Required
+<span class="required">*</span> - required
 
-* `account[login]` - can be either `email` or `phone`
-* `account[password]`
+* `account[login]`<span class="required"> *</span> - can be either email or phone
+* `account[password]`<span class="required"> *</span>
 
-## Response
+### Response
 
 An account JSON object containing the `authentication_token` only
 
-### HTTP Code
-
-`200 OK` or `401 Unauthorized`
-
-### JSON
+#### `200 OK`
 
 {% highlight javascript %}
 {{site.api.resources.account.sign_in}}
 {% endhighlight %}
+
+#### `401 Unauthorized`
+

@@ -1,32 +1,24 @@
 ---
 layout: default
-title: GET account
+resource: Account
+resource_id: account-show
+title: View account details
 ---
-# `{{page.title}}`
+Get information for the currently authenticated account.
 
-Get information for an account.
+### Request
 
-## URL
+<span class="method">GET</span> `{{site.api.base_url}}/{{site.api.version}}/account`
 
-`{{site.api.base_url}}/{{site.api.version}}/account`
-
-## Format
-
-JSON
-
-## HTTP Method
-
-`GET`
-
-## Account Authentication Required
+#### Account Authentication Required
 
 `true`
 
-## Response
+### Response
 
 An account JSON object.
 
-### `200 OK`
+#### `200 OK`
 
 {% highlight javascript %}
 {{site.api.resources.account.basic}}

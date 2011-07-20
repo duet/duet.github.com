@@ -11,16 +11,16 @@ api:
           {
               "account" : {
                   "id": 92,
-                  "gender": "m",
                   "phone": "2998841598",
                   "last_name": "Ledner",
                   "image": {
-                    "original": "http://cdn.duet.me/default/original_account_image.png",
-                    "mini": "http://cdn.duet.me/default/mini_account_image.png",
-                    "medium": "http://cdn.duet.me/default/medium_account_image.png",
-                    "small": "http://cdn.duet.me/default/small_account_image.png"
-                    },
-                  "born_on": "1980-10-10",
+                    "large": "http://cdn.duet.me/uploads/account/image/22/large_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                    "medium": "http://cdn.duet.me/uploads/account/image/22/medium_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                    "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                    "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                    "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                    "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg"
+                  },
                   "email": "account-6@email.com",
                   "first_name": "Merritt"
               }
@@ -30,15 +30,15 @@ api:
         {
             "account": {
                 "image": {
-                    "original": "http://cdn.duet.me/default/original_account_image.png",
-                    "mini": "http://cdn.duet.me/default/mini_account_image.png",
-                    "medium": "http://cdn.duet.me/default/medium_account_image.png",
-                    "small": "http://cdn.duet.me/default/small_account_image.png"
+                  "large": "http://cdn.duet.me/uploads/account/image/22/large_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "medium": "http://cdn.duet.me/uploads/account/image/22/medium_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg"
                 },
-                "born_on": "1972-03-01",
                 "first_name": "Will",
                 "last_name": "Ferrell",
-                "gender": "m",
                 "phone": "9756457843",
                 "email": "will@ferrell.com",
                 "id": 1,
@@ -48,15 +48,15 @@ api:
         {
             "account": {
                 "image": {
-                    "original": "http://cdn.duet.me/default/original_account_image.png",
-                    "mini": "http://cdn.duet.me/default/mini_account_image.png",
-                    "medium": "http://cdn.duet.me/default/medium_account_image.png",
-                    "small": "http://cdn.duet.me/default/small_account_image.png"
+                  "large": "http://cdn.duet.me/uploads/account/image/22/large_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "medium": "http://cdn.duet.me/uploads/account/image/22/medium_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg"
                 },
-                "born_on": null,
                 "first_name": "Bill",
                 "last_name": "Murray",
-                "gender": null,
                 "phone": "1231231234",
                 "email": "bill@murray.com",
                 "id": 2,
@@ -66,15 +66,15 @@ api:
         {
             "account": {
                 "image": {
-                    "original": "http://cdn.duet.me/default/original_account_image.png",
-                    "mini": "http://cdn.duet.me/default/mini_account_image.png",
-                    "medium": "http://cdn.duet.me/default/medium_account_image.png",
-                    "small": "http://cdn.duet.me/default/small_account_image.png"
+                  "large": "http://cdn.duet.me/uploads/account/image/22/large_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "medium": "http://cdn.duet.me/uploads/account/image/22/medium_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg"
                 },
-                "born_on": null,
                 "first_name": "Clint",
                 "last_name": "Eastwood",
-                "gender": null,
                 "phone": "3231231234",
                 "email": "clint@eastwood.com",
                 "id": 3,

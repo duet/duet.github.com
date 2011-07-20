@@ -1,43 +1,36 @@
 ---
 layout: default
-title: POST account/change_password
+resource: Account
+resource_id: account-change_password
+title: Change password
 ---
-# `{{page.title}}`
-
 Change the password for the currently authenticated account.
 
-## URL
+### Request
 
-`{{site.api.base_url}}/{{site.api.version}}/account/change_password`
+<span class="method">POST</span> `{{site.api.base_url}}/{{site.api.version}}/account/change_password`
 
-## Format
-
-JSON
-
-## HTTP Method
-
-`POST`
-
-## Account Authentication Required
+#### Account Authentication Required
 
 `true`
 
-## Parameters
+#### Parameters
+<span class="required">*</span> - required
 
-* `account[password]`
-* `account[password_confirmation]`
+* `account[password]`<span class="required"> *</span>
+* `account[password_confirmation]`<span class="required"> *</span>
 
-## Response
+### Response
 
-A JSON object containing privacy settings for the account.
+A account JSON object.
 
-### `200 OK`
+#### `200 OK`
 
 {% highlight javascript %}
 {{site.api.resources.account.basic}}
 {% endhighlight %}
 
-### `422 Unprocessable Entity`
+#### `422 Unprocessable Entity`
 
 {% highlight javascript %}
 {

@@ -1,44 +1,36 @@
 ---
 layout: default
-title: POST account/image
+resource: Account
+resource_id: account-image
+title: Update account image
 ---
-# `{{page.title}}`
+Set the profile photo for the currently authenticated account.
 
-Set a profile photo for an existing account.
+### Request
 
-## URL
+<span class="method">POST</span> `{{site.api.base_url}}/{{site.api.version}}/account/image`
 
-`{{site.api.base_url}}/{{site.api.version}}/account/image`
-
-## Format
-
-JSON
-
-## HTTP Method
-
-`POST`
-
-## Account Authentication Required
+#### Account Authentication Required
 
 `true`
 
-## Parameters
+#### Parameters
 
-### Required
+<span class="required">*</span> - required
 
 * `account[image]` - file upload in png, jpg, or gif format
 
-## Response
+### Response
 
 An account JSON object.
 
-### `200 OK`
+#### `200 OK`
 
 {% highlight javascript %}
 {{site.api.resources.account.basic}}
 {% endhighlight %}
 
-### `422 Unprocessable Entity`
+#### `422 Unprocessable Entity`
 
 {% highlight javascript %}
 {

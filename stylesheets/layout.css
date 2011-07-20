@@ -24,7 +24,11 @@ header h2 {
 nav {
   float: left;
   width: 30em;
-  padding: 0 2em;
+  padding: 0 2em 2em 2em;
+}
+
+nav ul li.active a {
+  background: #ededed;
 }
 
 nav ul li a {
@@ -76,7 +80,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li, div.highlight {
 li { 
   margin-bottom: 0; 
 }
-span.implemented {
+span.implemented,
+span.required {
   font-weight: bold;
   color: #c00;
 }
@@ -95,6 +100,14 @@ ul ul {
   margin-left: 1em;
 }
 
+span.method {
+  color: #fff;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  background: rgb(70,116,137);
+  border: 1px solid #ededed;
+}
+
 .push {
   margin-bottom: 1em;
 }
@@ -106,4 +119,9 @@ article img {
 ul.text li {
   list-style: square;
   margin: 0 0 1em 1.5em;
+}
+
+article h3 {
+  padding-top: 1em;
+  border-top: 5px solid #ededed;
 }

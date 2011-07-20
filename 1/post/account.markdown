@@ -1,53 +1,40 @@
 ---
 layout: default
-title: POST account
+resource: Account
+resource_id: account-create
+title: Create an account
 ---
-# `{{page.title}}`
+Creates a new Duet account.
 
-Creates a new duet account.
+### Request
 
-## URL
+<span class="method">POST</span> `{{site.api.base_url}}/{{site.api.version}}/account`
 
-`{{site.api.base_url}}/{{site.api.version}}/account`
-
-## Format
-
-JSON
-
-## HTTP Method
-
-`POST`
-
-## Account Authentication Required
+#### Account Authentication Required
 
 `false`
 
-## Parameters
+#### Parameters
 
-### Required
+<span class="required">*</span> - required
 
-* `account[first_name]`
-* `account[last_name]`
-* `account[email]`
-* `account[password]`
-* `account[phone]`
+* `account[first_name]`<span class="required">*</span>
+* `account[last_name]`<span class="required">*</span>
+* `account[email]`<span class="required">*</span>
+* `account[password]`<span class="required">*</span>
+* `account[phone]`<span class="required">*</span>
 
-### Optional
+### Response
 
-* `account[gender]` - acceptable values: `m`, `f`
-* `account[born_on]` - format: `YYYY-MM-DD` (no time included)
+An account JSON object.  **Note**: If you want to sign the account in immediately after successfully creating it, an immediate call to [`POST account/sign_in`](/post/account/sign_in) should be made so the `authentication_token` can be retrieved.
 
-## Response
-
-An account JSON object.  **Note**: If you want to sign the account in immediately after successfully creating it, an immediate call to [`POST account/sign_in`](/1/post/account/sign_in) should be made so the `authentication_token` can be retrieved.
-
-### `200 OK`
+#### `200 OK`
 
 {% highlight javascript %}
 {{site.api.resources.account.basic}}
 {% endhighlight %}
 
-### `422 Unprocessable Entity`
+#### `422 Unprocessable Entity`
 
 {% highlight javascript %}
 {{site.api.resources.account.errors}}

@@ -1,42 +1,24 @@
 ---
 layout: default
-title: GET account/circle
+resource: Account
+resource_id: account-circle
+title: View an account's circle
 ---
-# `{{page.title}}`
-
 A paginated list of accounts the authenticated account is connected to.
 
-## URL
+### Request
 
-`{{site.api.base_url}}/{{site.api.version}}/account/circle`
+<span class="method">GET</span> `{{site.api.base_url}}/{{site.api.version}}/account/circle`
 
-## Format
-
-JSON
-
-## HTTP Method
-
-`GET`
-
-## Account Authentication Required
+#### Account Authentication Required
 
 `true`
-## Parameters
 
-### Optional
-
-* `per` - default: 10
-* `page` - default: 1
-
-## Response
+### Response
 
 An array of account JSON objects.
 
-### HTTP Code
-
-`200 OK`
-
-### JSON
+#### `200 OK`
 
 The `activity` node contains a count of un-viewed activity related to each account.
 
