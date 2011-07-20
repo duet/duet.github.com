@@ -1,31 +1,21 @@
 ---
 layout: default
-title: GET duets/:duet_id
+resource: Duets
+resource_id: duets-show
+title: Get a specific duet
 ---
-# `{{page.title}}`
-
 Get duet matching the specified `:duet_id`.
 
-## URL
+### Request
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id`
+<span class="method">GET</span> `{{site.api.base_url}}/{{site.api.version}}/duets/:duet_id`
 
-## Format
-
-JSON
-
-## HTTP Method
-
-`GET`
-
-## Account Authentication Required
+#### Account Authentication Required
 
 `true`
 
-## Response
+### Response
 
-### `200 OK`
+#### `200 OK`
 
 A Duet object. See the [Duet Object documentation](/1/duet_object) for more information.
-
-### `404 Not Found`
