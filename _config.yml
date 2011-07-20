@@ -192,35 +192,47 @@ api:
       basic: |
         {
             "item": {
-                "id": 2,
+                "created_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "content_type": "video",
-                "created_by_id": 3,
-                "created_at": "Thu, 05 May 2011 12:10:41 -0400",
+                "created_by_id": 1,
+                "id": 2,
+                "video": "http://cdn.duet.me/uploads/item/video/2/4f188d50-949a-012e-ade3-001f5be78ffa.m4v",
                 "message": "This is a test.",
-                "image": "http://cdn.duet.me/uploads/item/image/2/image.png",
-                "video": "http://cdn.duet.me/uploads/item/video/2/video.m4v"
+                "image": {
+                    "url": "http://cdn.duet.me/uploads/item/image/2/4f186f90-949a-012e-ade2-001f5be78ffa.png",
+                    "height": 100,
+                    "width": 100
+                }
             }
         }
       collection: |
         [
         {
             "item": {
-                "id": 2,
+                "created_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "content_type": "video",
-                "created_by_id": 3,
-                "created_at": "Thu, 01 May 2011 16:31:58 -0400",
+                "created_by_id": 1,
+                "id": 2,
+                "video": "http://cdn.duet.me/uploads/item/video/2/4f188d50-949a-012e-ade3-001f5be78ffa.m4v",
                 "message": "This is a test.",
-                "image": "http://cdn.duet.me/uploads/item/image/2/image.png",
-                "video": "http://cdn.duet.me/uploads/item/video/2/video.m4v"
+                "image": {
+                    "url": "http://cdn.duet.me/uploads/item/image/2/4f186f90-949a-012e-ade2-001f5be78ffa.png",
+                    "height": 100,
+                    "width": 100
+                }
             }
         },
         {
             "item": {
-                "id": 6,
+                "created_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "content_type": "image",
-                "created_by_id": 3,
-                "created_at": "Thu, 02 May 2011 12:10:41 -0400",
-                "image": "http://cdn.duet.me/uploads/item/image/2/image.png"
+                "created_by_id": 1,
+                "id": 34,
+                "image": {
+                    "url": "http://cdn.duet.me/uploads/item/image/2/4f186f90-949a-012e-ade2-001f5be78ffa.png",
+                    "height": 100,
+                    "width": 100
+                }
             }
         },
         {
