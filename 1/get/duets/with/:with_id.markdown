@@ -1,36 +1,29 @@
 ---
 layout: default
-title: GET duets/with/:with_id
+resource: Duets
+resource_id: duets-with-person
+title: List all duets with a particular person
 ---
-# `{{page.title}}`
+A paginated list of all duets between the account specified by `:with_id` and the currently authenticated account.
 
-A list of the current account's duets that involve `:with_id`.
+### Request
 
-## URL
+<span class="method">GET</span> `{{site.api.base_url}}/{{site.api.version}}/duets/with/:with_id`
 
-`{{site.api.base_url}}/{{site.api.version}}/duets/with/:with_id`
-
-## Format
-
-JSON
-
-## HTTP Method
-
-`GET`
-
-## Account Authentication Required
+#### Account Authentication Required
 
 `true`
 
-## Parameters
+#### Parameters
 
-### Optional
+<span class="required">*</span> - required
 
-* `per` - default: 10
-* `page` - default: 1
+* `per` and `page` - see [pagination parameters](/1/general#pagination)
 
-## Response
+### Response
 
-### `200 OK`
+An array of Duet objects.
 
-An array of Duet objects. See the [Duet Object documentation](/1/duet_object) for more information.
+#### `200 OK`
+
+See the [Duet Object documentation](/1/duet_object) for more information.
