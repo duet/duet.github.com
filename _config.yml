@@ -19,7 +19,8 @@ api:
                     "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                     "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                     "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
-                    "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg"
+                    "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                    "state": "current"
                   },
                   "email": "account-6@email.com",
                   "first_name": "Merritt"
@@ -35,7 +36,8 @@ api:
                   "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                   "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                   "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
-                  "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg"
+                  "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "state": "current"
                 },
                 "first_name": "Will",
                 "last_name": "Ferrell",
@@ -53,7 +55,8 @@ api:
                   "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                   "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                   "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
-                  "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg"
+                  "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "state": "current"
                 },
                 "first_name": "Bill",
                 "last_name": "Murray",
@@ -71,7 +74,8 @@ api:
                   "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                   "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                   "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
-                  "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg"
+                  "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+                  "state": "current"
                 },
                 "first_name": "Clint",
                 "last_name": "Eastwood",
