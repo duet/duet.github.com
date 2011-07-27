@@ -11,8 +11,9 @@ api:
           {
               "account" : {
                   "id": 92,
+                  "first_name": "Merritt",
+                  "email": "account-6@email.com",
                   "phone": "2998841598",
-                  "last_name": "Ledner",
                   "image": {
                     "large": "http://cdn.duet.me/uploads/account/image/22/large_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                     "medium": "http://cdn.duet.me/uploads/account/image/22/medium_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
@@ -21,9 +22,7 @@ api:
                     "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                     "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
                     "state": "current"
-                  },
-                  "email": "account-6@email.com",
-                  "first_name": "Merritt"
+                  }
               }
           }
       collection: |
@@ -40,9 +39,6 @@ api:
                   "state": "current"
                 },
                 "first_name": "Will",
-                "last_name": "Ferrell",
-                "phone": "9756457843",
-                "email": "will@ferrell.com",
                 "id": 1,
                 "activity": 0
             }
@@ -59,9 +55,6 @@ api:
                   "state": "current"
                 },
                 "first_name": "Bill",
-                "last_name": "Murray",
-                "phone": "1231231234",
-                "email": "bill@murray.com",
                 "id": 2,
                 "activity": 3
             }
@@ -78,9 +71,6 @@ api:
                   "state": "current"
                 },
                 "first_name": "Clint",
-                "last_name": "Eastwood",
-                "phone": "3231231234",
-                "email": "clint@eastwood.com",
                 "id": 3,
                 "activity": null
             }

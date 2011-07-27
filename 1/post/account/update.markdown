@@ -19,7 +19,6 @@ Update basic account information.  This does not include password or image updat
 <span class="required">*</span> - required
 
 * `account[first_name]`
-* `account[last_name]`
 * `account[email]`
 * `account[phone]`
 

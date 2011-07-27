@@ -33,18 +33,16 @@ If the duet is being proposed to an account in your circle or an account match v
         "proposed_to_account": true,
         "proposed_to": {
             "id": 2,
-            "gender": null,
-            "phone": "747724958744",
-            "last_name": "Eichmann",
-            "image": {
-                "medium": "http://cdn.duet.me/default/medium_account_image.png",
-                "mini": "http://cdn.duet.me/default/mini_account_image.png",
-                "small": "http://cdn.duet.me/default/small_account_image.png",
-                "original": "http://cdn.duet.me/default/original_account_image.png"
-            },
             "first_name": "Ubaldo",
-            "email": "account-44@email.com",
-            "born_on": null
+            "image": {
+              "large": "http://cdn.duet.me/uploads/account/image/22/large_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "medium": "http://cdn.duet.me/uploads/account/image/22/medium_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "state": "current"
+            }
         },
         "body": "watch a movie",
         "prefix": "Let's",
@@ -60,15 +58,17 @@ If the duet is being proposed to a phone number and no matching accounts could b
 {
     "duet": {
         "proposed_to": {
-          "phone": "747724958744",
-          "last_name": "Eichmann",
-          "first_name": "Ubaldo",
-          "image": {
-              "medium": "/uploads/duet/propose_to_phone_number_image/2/medium_image.png",
-              "mini": "/uploads/duet/propose_to_phone_number_image/2/mini_image.png",
-              "small": "/uploads/duet/propose_to_phone_number_image/2/small_image.png",
-              "original": "/uploads/duet/propose_to_phone_number_image/2/original_image.png"
-          }
+            "id": 2,
+            "first_name": "Ubaldo",
+            "image": {
+              "large": "http://cdn.duet.me/uploads/account/image/22/large_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "medium": "http://cdn.duet.me/uploads/account/image/22/medium_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "state": "current"
+            }
         },
         "proposed_by_me": true,
         "body": "aut dolor id",
@@ -89,18 +89,16 @@ If the duet was proposed to you by someone else, `proposed_by_me` will be false 
         "proposed_by_me": false,
         "proposed_by": {
             "id": 2,
-            "gender": null,
-            "phone": "747724958744",
-            "last_name": "Eichmann",
-            "image": {
-                "medium": "http://cdn.duet.me/default/medium_account_image.png",
-                "mini": "http://cdn.duet.me/default/mini_account_image.png",
-                "small": "http://cdn.duet.me/default/small_account_image.png",
-                "original": "http://cdn.duet.me/default/original_account_image.png"
-            },
             "first_name": "Ubaldo",
-            "email": "account-44@email.com",
-            "born_on": null
+            "image": {
+              "large": "http://cdn.duet.me/uploads/account/image/22/large_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "medium": "http://cdn.duet.me/uploads/account/image/22/medium_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "full": "http://cdn.duet.me/uploads/account/image/22/full_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "medium@2x": "http://cdn.duet.me/uploads/account/image/22/medium2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "full@2x": "http://cdn.duet.me/uploads/account/image/22/full2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "large@2x": "http://cdn.duet.me/uploads/account/image/22/large2x_e2512060-948c-012e-1bfb-4040900bc90c.jpg",
+              "state": "current"
+            }
         },
         "body": "watch a movie",
         "prefix": "Let's",
@@ -115,7 +113,7 @@ If the duet was proposed to you by someone else, `proposed_by_me` will be false 
 
 The `activity` node contains a count of un-viewed activity related to the duet.
 
-#### Declined & Canceled Duets
+<h4 id="declined-and-canceled">Declined &amp; Canceled Duets</h4>
 
 If a duet is [declined](/1/post/duets/:duet_id/declined/) or [canceled](/1/post/duets/:duet_id/canceled/),  nodes telling you who, why, and when will be included in the duet object.  The `*_by` nodes will contain the account_id of the account that declined/canceled the duet.  The `*_why` will either be `null` or a string containing a message why the duet was declined or canceled.  The `*_at` will tell you when the action occurred.
 
