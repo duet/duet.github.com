@@ -144,16 +144,15 @@ If a duet is [declined](/1/post/duets/:duet_id/declined/) or [canceled](/1/post/
 
 <h3 id="object-lifecycle">Object Lifecycle</h3>
 
-A duet object goes through several different states during its lifespan and there are specific actions that can be called on a duet to move it from one state to another.  The diagram below illustrates this.
+A duet object goes through several different states during its lifespan and there are specific actions that can be called on a duet to move it from one state to another.  The diagram below illustrates this (click to view full diagram).
 
-<img src="/images/duet-object-lifecycle.png" alt="{{page.title}}">
+<a href="/images/duet-object-lifecycle.png"><img src="/images/duet-object-lifecycle-thumb.png" alt="{{page.title}}"></a>
 
 Some important notes:
 
 <ul class="text">
-  <li>The body of duet can only be edited as long as a duet has not been proposed to someone (i.e. it is in the unpaired state).</li>
-  <li>Once a duet has been proposed to someone, it can only be accepted or declined by that person.</li>
-  <li>If a duet is declined by the person you proposed it to, the person who proposed the duet will be notified and then the duet will be destroyed.</li>
+  <li>Once a duet has been proposed to someone, it can only be accepted or declined by that person. It can, however, be canceled by the person who proposed it.</li>
+  <li>If a duet is declined by the person you proposed it to, the person who proposed the duet will be given the opportunity to view why and then the duet will be removed from their stream.</li>
   <li>Once a proposed duet is accepted it will be in the active state.  From there is can be canceled or completed by either of the parties involved in the duet.</li>
-  <li>If a duet is active and is canceled by one of the participating parties, it is moved into the canceled state.  The other party involved will then see a notification the duet has been canceled, then the duet will be destroyed.</li>
+  <li>If a duet is active and is canceled by one of the participating parties, it is moved into the canceled state.  The other party involved will have an opportunity to see why the duet has been canceled, then the duet will be removed from their stream.</li>
 </div>

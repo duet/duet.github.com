@@ -89,14 +89,14 @@
             <li{% if page.resource_id == 'duets-show' %} class="active"{% endif %}>
               <a href="/1/get/duets/:duet_id">Get a specific duet</a>
             </li>
-            <li{% if page.resource_id == 'duets-propose' %} class="active"{% endif %}>
-              <a href="/1/post/duets/:duet_id/propose">Propose a duet</a>
-            </li>
             <li{% if page.resource_id == 'duets-accept' %} class="active"{% endif %}>
               <a href="/1/post/duets/:duet_id/accept">Accept a duet</a>
             </li>
             <li{% if page.resource_id == 'duets-decline' %} class="active"{% endif %}>
               <a href="/1/post/duets/:duet_id/decline">Decline a duet</a>
+            </li>
+            <li{% if page.resource_id == 'duets-acknowledge-decline' %} class="active"{% endif %}>
+              <a href="/1/post/duets/:duet_id/acknowledge_decline">Acknowledge a duet has been declined</a>
             </li>
             <li{% if page.resource_id == 'duets-update' %} class="active"{% endif %}>
               <a href="/1/post/duets/:duet_id/update">Update a duet</a>
@@ -106,6 +106,9 @@
             </li>
             <li{% if page.resource_id == 'duets-cancel' %} class="active"{% endif %}>
               <a href="/1/post/duets/:duet_id/cancel">Cancel a duet</a>
+            </li>
+            <li{% if page.resource_id == 'duets-acknowledge-cancel' %} class="active"{% endif %}>
+              <a href="/1/post/duets/:duet_id/acknowledge_cancel">Acknowledge a duet has been canceled</a>
             </li>
             <li{% if page.resource_id == 'duets-reopen' %} class="active"{% endif %}>
               <a href="/1/post/duets/:duet_id/reopen">Reopen a duet</a>
