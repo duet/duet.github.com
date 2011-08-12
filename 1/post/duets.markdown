@@ -31,6 +31,7 @@ JSON
 ### Optional
 
 * `duet[video]` - a video in m4v format
+* `duet[image]` - a screencap to accompany the video being sent
 * `duet[propose_to][account_id]` - `id` of an account in your circle you want to propose this duet to
 * `duet[propose_to][phone]` - The phone number of a person you'd like to duet with.  An attempt will be made to find an existing account with the same phone number.  If one is found, that person will be notified via push notification about the duet.  If no matching account is found, an SMS message will be sent to that phone number with an invite.
 * `duet[propose_to][first_name]` - The first name of the person you're proposing this duet to.  Only necessary if you're proposing to a phone number.

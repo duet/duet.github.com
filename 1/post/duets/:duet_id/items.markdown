@@ -30,7 +30,7 @@ JSON
 
 ### Optional
 
-* `item[image]` - an image
+* `item[image]` - either an image if no video is being sent or a screencap to accompany the video being sent
 * `item[video]` - a video in m4v format
 
 ## Response

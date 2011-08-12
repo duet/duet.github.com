@@ -109,6 +109,40 @@ If the duet was proposed to you by someone else, `proposed_by_me` will be false 
 }
 {% endhighlight %}
 
+#### Video attachment
+
+If a video was sent along with the duet when it was proposed, the duet object will also contain `video` and `image` nodes.  The structure is the same as a duet item's `video` and `image`.
+
+{% highlight javascript %}
+{
+    "duet": {
+        "proposed_to": {
+            "phone": null,
+            "image": {
+                "medium": "http://cdn.duet.me/default/medium_propose_to_phone_number_image.png",
+                "mini": "http://cdn.duet.me/default/mini_propose_to_phone_number_image.png",
+                "small": "http://cdn.duet.me/default/small_propose_to_phone_number_image.png",
+                "original": "http://cdn.duet.me/default/original_propose_to_phone_number_image.png"
+            },
+            "first_name": null
+        },
+        "proposed_by_me": true,
+        "body": "ratione non architecto",
+        "prefix": "Let's",
+        "activity": 0,
+        "proposed_to_account": false,
+        "id": 2,
+        "video": "http://cdn.duet.me/uploads/item/video/1/9143fba0-a69d-012e-efba-001b63bb2354.m4v",
+        "image": {
+            "url": "http://cdn.duet.me/uploads/item/image/1/9143d840-a69d-012e-efb9-001b63bb2354.png",
+            "height": 100,
+            "width": 100
+        },
+        "state": "unpaired"
+    }
+}
+{% endhighlight %}
+
 #### Activity
 
 The `activity` node contains a count of un-viewed activity related to the duet.
