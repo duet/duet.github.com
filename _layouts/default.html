@@ -72,6 +72,14 @@
           </ul>
         </li>
         <li class="push">
+          <strong>Recent Activity</strong>
+          <ul>
+            <li{% if page.resource_id == 'recent-activity' %} class="active"{% endif %}>
+              <a href="/1/get/recent_activity">List recent activity</a>
+            </li>
+          </ul>
+        </li>
+        <li class="push">
           <strong>Duets</strong>
           <ul>
             <li{% if page.resource_id == 'duets-overview' %} class="active"{% endif %}>
