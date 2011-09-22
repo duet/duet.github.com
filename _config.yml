@@ -190,6 +190,7 @@ api:
                 "content_type": "video",
                 "created_by_id": 1,
                 "id": 2,
+                "duet_id": 2981,
                 "video": "http://cdn.duet.me/uploads/item/video/2/4f188d50-949a-012e-ade3-001f5be78ffa.m4v",
                 "message": "This is a test.",
                 "image": {
@@ -207,6 +208,7 @@ api:
                 "content_type": "video",
                 "created_by_id": 1,
                 "id": 2,
+                "duet_id": 2981,
                 "video": "http://cdn.duet.me/uploads/item/video/2/4f188d50-949a-012e-ade3-001f5be78ffa.m4v",
                 "message": "This is a test.",
                 "image": {
@@ -222,6 +224,7 @@ api:
                 "content_type": "image",
                 "created_by_id": 1,
                 "id": 34,
+                "duet_id": 2981,
                 "image": {
                     "url": "http://cdn.duet.me/uploads/item/image/2/4f186f90-949a-012e-ade2-001f5be78ffa.png",
                     "height": 100,
@@ -232,6 +235,7 @@ api:
         {
             "item": {
                 "id": 22,
+                "duet_id": 2981,
                 "content_type": "message",
                 "created_by_id": 3,
                 "created_at": "Thu, 03 May 2011 09:09:12 -0400",
