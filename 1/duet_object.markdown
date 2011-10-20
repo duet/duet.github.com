@@ -17,6 +17,7 @@ When you create a duet, if `duet[propose_to]` isn't set, the response will be th
     "duet": {
         "proposed_by_me": true,
         "body": "watch a movie",
+        "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
         "prefix": "Let's",
         "id": 2,
         "state": "unpaired"
@@ -31,6 +32,7 @@ If the duet is being proposed to an account in your circle or an account match v
     "duet": {
         "proposed_by_me": true,
         "proposed_to_account": true,
+        "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
         "proposed_to": {
             "id": 2,
             "first_name": "Ubaldo",
@@ -71,6 +73,7 @@ If the duet is being proposed to a phone number and no matching accounts could b
             }
         },
         "proposed_by_me": true,
+        "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
         "body": "aut dolor id",
         "prefix": "Let's",
         "proposed_to_account": false,
@@ -102,6 +105,7 @@ If the duet was proposed to you by someone else, `proposed_by_me` will be false 
         },
         "body": "watch a movie",
         "prefix": "Let's",
+        "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
         "id": 2,
         "state": "proposed",
         "activity": 1
@@ -130,6 +134,7 @@ If a video was sent along with the duet when it was proposed, the duet object wi
         "body": "ratione non architecto",
         "prefix": "Let's",
         "activity": 0,
+        "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
         "proposed_to_account": false,
         "id": 2,
         "video": "http://cdn.duet.me/uploads/item/video/1/9143fba0-a69d-012e-efba-001b63bb2354.m4v",

@@ -71,6 +71,7 @@ A JSON object containing up to three collections `items`, `duets`, `circle`. If 
             "account": {
                 "activity": 0,
                 "id": 581,
+                "last_activity_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "image": {
                     "medium": "https://duet-assets-development.s3.amazonaws.com/uploads/account/processed_image/9f682df245668969bbcd5395bdc2882591eeecde/medium_image.jpg",
                     "medium@2x": "https://duet-assets-development.s3.amazonaws.com/uploads/account/processed_image/9f682df245668969bbcd5395bdc2882591eeecde/medium2x_image.jpg",
@@ -104,6 +105,7 @@ A JSON object containing up to three collections `items`, `duets`, `circle`. If 
                     "first_name": "Jane"
                 },
                 "activity": 0,
+                "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "body": "fastforward to Friday",
                 "state": "active"
             }
@@ -127,6 +129,7 @@ A JSON object containing up to three collections `items`, `duets`, `circle`. If 
                     "first_name": "Benjamin"
                 },
                 "activity": 0,
+                "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "image": {
                     "url": "https://duet-assets-development.s3.amazonaws.com/uploads/item/image/12511/image.jpg",
                     "width": 360,

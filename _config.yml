@@ -40,6 +40,7 @@ api:
                 },
                 "first_name": "Will",
                 "id": 1,
+                "last_activity_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "activity": 0
             }
         },
@@ -56,6 +57,7 @@ api:
                 },
                 "first_name": "Bill",
                 "id": 2,
+                "last_activity_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "activity": 3
             }
         },
@@ -72,6 +74,7 @@ api:
                 },
                 "first_name": "Clint",
                 "id": 3,
+                "last_activity_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "activity": null
             }
         }
@@ -106,6 +109,7 @@ api:
                 "id": 92,
                 "proposed_by_id": 1,
                 "prefix": "Let's",
+                "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "body": "bake a cake",
                 "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
                 "state": "unpaired"
@@ -117,6 +121,7 @@ api:
                 "id": 92,
                 "prefix": "Let's",
                 "body": "bake a cake",
+                "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
                 "state": "active"
                 "proposed_by_id": 1,
@@ -128,6 +133,7 @@ api:
             "duet": {
                 "proposed_by_id": 1,
                 "body": "watch a movie",
+                "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "state": "proposed",
                 "id": 1,
                 "propose_to_phone_number": "1234567890",
@@ -140,6 +146,7 @@ api:
                 "proposed_to_id": 2,
                 "proposed_by_id": 1,
                 "body": "watch a movie",
+                "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "state": "proposed",
                 "id": 1,
                 "prefix": "Let's"
@@ -153,6 +160,7 @@ api:
                 "proposed_by_id": 1,
                 "prefix": "Let's",
                 "body": "bake a cake",
+                "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "state": "unpaired"
             }
         },
@@ -163,6 +171,7 @@ api:
                 "prefix": "Let's",
                 "body": "have a beer",
                 "video": "http://cdn.duet.me/uploads/duet/video/2/video.m4v",
+                "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "state": "unpaired"
             }
         },
@@ -171,6 +180,7 @@ api:
                 "id": 17,
                 "proposed_by_id": 1,
                 "prefix": "Let's",
+                "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "body": "go run a race",
                 "state": "unpaired"
             }
@@ -187,6 +197,7 @@ api:
         {
             "item": {
                 "created_at": "Tue, 19 Jul 2011 21:05:40 -0400",
+                "updated_at": "Tue, 19 Jul 2011 21:05:40 -0400",
                 "content_type": "video",
                 "created_by_id": 1,
                 "id": 2,
